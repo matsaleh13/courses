@@ -3,8 +3,12 @@ _site/
 .jekyll-metadata
 .ipynb_checkpoints/
 data/
+data.bak/
+*.jpg
 *.pyc
 *.h5
 ai_aliases.sh
 fast-ai-commands.txt
 fast-ai-remove.sh
+
+Thumbs.db
