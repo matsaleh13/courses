@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        split_training_data=split_training_data:cli
+    
