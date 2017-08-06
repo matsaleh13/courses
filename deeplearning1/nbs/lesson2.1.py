@@ -14,6 +14,16 @@ Lesson 2 Assignment Plan:
     *	Fit the updated model.
     *	Save the weights from the training in the models/ folder
 3.	Run predictions on the Kaggle dogs and cats test data using the retrained model.
+
+NOTE: This is the same as lesson2.py, but with some (hopefully) improvements.
+
+1. Train last layer with fewer epochs (e.g. 2).
+2. Train last layer with smaller data set (e.g. 25% of training set).
+3. Use LR=0.01 on last layer (instead of 0.001)
+4. Re-train additional Dense layers earlier than last layer (after training last layer).
+5. Use more epochs on remaining layers (e.g. 4).
+6. Use LR=0.001 on earlier layers.
+
 '''
 
 import os
@@ -41,6 +51,16 @@ from keras.layers.core import Flatten, Dense, Dropout, Lambda
 from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D
 from keras.optimizers import SGD, RMSprop
 from keras.preprocessing import image
+
+#
+# Utility Functions
+#
+
+
+def onehot(x):
+    # Returns two-column matrix with one row for each class.
+    return np.array(OneHotEncoder().fit_transform(x.reshape(-1, 1)).todense())
+
 
 #
 # Data Setup
@@ -85,12 +105,20 @@ print
 #
 BATCH_SIZE = 64
 NUM_EPOCHS = 5
+LR = 0.001
+LL_DATA_SIZE = 0.25    # Fraction of train/valid set to use for last layer training.
+LL_NUM_EPOCHS = 3      # Number of epochs to train last layer only.
+LL_LR = 0.01
 
 #
-# Local
+# Sample Set
 #
 # BATCH_SIZE = 10
 # NUM_EPOCHS = 2
+# LR = 0.001
+# LL_DATA_SIZE = 0.50    # Fraction of train/valid set to use for last layer training.
+# LL_NUM_EPOCHS = 2      # Number of epochs to train last layer only.
+# LL_LR = 0.001
 
 
 #
@@ -129,20 +157,15 @@ utils.save_array(VALID_DATA, VALID_ARRAY)
 
 print 'Getting the true labels for every image...'
 
-def onehot(x):
-    # Returns two-column matrix with one row for each class.
-    return np.array(OneHotEncoder().fit_transform(x.reshape(-1, 1)).todense())
-
 TRAIN_CLASSES = TRAIN_BATCHES.classes
 TRAIN_LABELS = onehot(TRAIN_CLASSES)
-print '\tTraining labels look like this: \n%s\n...\n%s' % (TRAIN_LABELS[:5], TRAIN_LABELS[-5:])
-print
+# print '\tTraining labels look like this: \n%s\n...\n%s' % (TRAIN_LABELS[:5], TRAIN_LABELS[-5:])
+# print
 
 VALID_CLASSES = VALID_BATCHES.classes
 VALID_LABELS = onehot(VALID_CLASSES)
-print '\tValidation labels look like this: \n%s\n...\n%s' % (VALID_LABELS[:5], VALID_LABELS[-5:])
-
-print
+# print '\tValidation labels look like this: \n%s\n...\n%s' % (VALID_LABELS[:5], VALID_LABELS[-5:])
+# print
 
 
 print 'Preparing image data generators...'
@@ -158,26 +181,54 @@ VALID_BATCHES = gen.flow(VALID_ARRAY, VALID_LABELS,
 print 'Replacing last layer of model...'
 vgg = Vgg16()
 vgg.model.pop()
+
 for layer in vgg.model.layers: layer.trainable=False
 vgg.model.add(Dense(2, activation='softmax'))
-vgg.model.compile(optimizer=RMSprop(lr=0.001), loss='categorical_crossentropy', metrics=['accuracy'])
 
-print 'Fitting updated model...'
+OPTIMIZER = RMSprop(lr=LL_LR)   # Larger LR for this run
+vgg.model.compile(optimizer=OPTIMIZER, loss='categorical_crossentropy', metrics=['accuracy'])
+
+print 'Fitting last layer of model using a subset of samples...'
+vgg.model.fit_generator(TRAIN_BATCHES, samples_per_epoch=TRAIN_BATCHES.n * LL_DATA_SIZE, nb_epoch=LL_NUM_EPOCHS,
+                        validation_data=VALID_BATCHES, nb_val_samples=VALID_BATCHES.n * LL_DATA_SIZE)
+
+print 'Saving model weights...'
+vgg.model.save_weights(os.path.join(MODEL_PATH, 'finetune_1_ll.h5'))
+
+print 'Confusion matrix after last layer retraining'
+PREDS = vgg.model.predict_classes(VALID_ARRAY, batch_size=BATCH_SIZE)
+PROBS = vgg.model.predict_proba(VALID_ARRAY, batch_size=BATCH_SIZE)[:, 0]
+
+CM = confusion_matrix(VALID_CLASSES, PREDS)
+print CM
+
+print 'Re-training other Dense layers...'
+LAYERS = vgg.model.layers
+FIRST_DENSE_IDX = [index for index, layer in enumerate(LAYERS) if type(layer) is Dense][0]
+
+for layer in LAYERS[FIRST_DENSE_IDX:]:
+    layer.trainable = True  # unlock what we locked earlier
+
+# Set Learning Rate smaller for this pass.
+K.set_value(OPTIMIZER.lr, LR)
+
+# full data set now
 vgg.model.fit_generator(TRAIN_BATCHES, samples_per_epoch=TRAIN_BATCHES.n, nb_epoch=NUM_EPOCHS,
                         validation_data=VALID_BATCHES, nb_val_samples=VALID_BATCHES.n)
 
 print 'Saving model weights...'
-vgg.model.save_weights(os.path.join(MODEL_PATH, 'finetune1.h5'))
-vgg.model.load_weights(os.path.join(MODEL_PATH, 'finetune1.h5'))
+vgg.model.save_weights(os.path.join(MODEL_PATH, 'finetune_2_full.h5'))
+
 
 print 'Evaluating model with validation data...'
-vgg.model.evaluate(VALID_ARRAY, VALID_LABELS)
+TEST_LOSS = vgg.model.evaluate(VALID_ARRAY, VALID_LABELS)
+print 'TEST_LOSS: %s' % (TEST_LOSS,)
 
-print 'Confusion matrix'
-PREDS = vgg.model.predict_classes(TRAIN_ARRAY, batch_size=BATCH_SIZE)
-PROBS = vgg.model.predict_proba(TRAIN_ARRAY, batch_size=BATCH_SIZE)[:,0]
+print 'Confusion matrix after full retraining'
+PREDS = vgg.model.predict_classes(VALID_ARRAY, batch_size=BATCH_SIZE)
+PROBS = vgg.model.predict_proba(VALID_ARRAY, batch_size=BATCH_SIZE)[:,0]
 
-CM = confusion_matrix(TRAIN_CLASSES, PREDS)
+CM = confusion_matrix(VALID_CLASSES, PREDS)
 print CM
 
 print ('Predicting labels for test data set...')
