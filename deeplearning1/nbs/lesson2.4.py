@@ -71,9 +71,10 @@ def get_batches_and_data(path, target_size=(224, 224)):
     return batches, array
 
 
-# USE_SAMPLE_DATA = True
-USE_SAMPLE_DATA = False
-LOCAL = False
+USE_SAMPLE_DATA = True
+# USE_SAMPLE_DATA = False
+LOCAL = True
+# LOCAL = False
 
 #
 # Constants
