@@ -71,8 +71,8 @@ def get_batches_and_data(path, target_size=(224, 224)):
     return batches, array
 
 
-USE_SAMPLE_DATA = True
-# USE_SAMPLE_DATA = False
+# USE_SAMPLE_DATA = True
+USE_SAMPLE_DATA = False
 LOCAL = True
 # LOCAL = False
 
@@ -81,17 +81,17 @@ LOCAL = True
 #
 
 if LOCAL:
-    BATCH_SIZE = 10
+    BATCH_SIZE = 32
 else:
     BATCH_SIZE = 64
+
+INPUT_PATH = os.path.join('.', 'input')
+OUTPUT_PATH = os.path.join('.', 'output')
 
 if not USE_SAMPLE_DATA:
     #
     # FloydHub
     #
-    INPUT_PATH = '/input/'
-    OUTPUT_PATH = '/output/'
-
     NUM_EPOCHS = 10
 
     LL_DATA_SIZE = 1.0   # Fraction of train/valid set to use for last layer training.
@@ -101,8 +101,8 @@ else:
     #
     # Sample Set
     #
-    INPUT_PATH = '/input/sample/'
-    OUTPUT_PATH = '/output/sample'
+    INPUT_PATH = os.path.join(INPUT_PATH, 'sample')
+    OUTPUT_PATH = os.path.join(OUTPUT_PATH, 'sample')
 
     NUM_EPOCHS = 2
 
