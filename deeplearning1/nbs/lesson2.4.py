@@ -223,31 +223,31 @@ PROBS = vgg.model.predict_proba(VALID_ARRAY, batch_size=BATCH_SIZE)[:, 0]
 CM = confusion_matrix(VALID_CLASSES, PREDS)
 print CM
 
-# print 'Re-training other Dense layers...'
-# LAYERS = vgg.model.layers
-# FIRST_DENSE_IDX = [index for index, layer in enumerate(LAYERS) if type(layer) is Dense][0]
+print 'Re-training other Dense layers...'
+LAYERS = vgg.model.layers
+FIRST_DENSE_IDX = [index for index, layer in enumerate(LAYERS) if type(layer) is Dense][0]
 
-# for layer in LAYERS[FIRST_DENSE_IDX:]:
-#     layer.trainable = True  # unlock what we locked earlier
+for layer in LAYERS[FIRST_DENSE_IDX:]:
+    layer.trainable = True  # unlock what we locked earlier
 
-# # full data set now
-# vgg.model.fit_generator(TRAIN_BATCHES, samples_per_epoch=TRAIN_BATCHES.n, nb_epoch=NUM_EPOCHS,
-#                         validation_data=VALID_BATCHES, nb_val_samples=VALID_BATCHES.n)
+# full data set now
+vgg.model.fit_generator(TRAIN_BATCHES, samples_per_epoch=TRAIN_BATCHES.n, nb_epoch=NUM_EPOCHS,
+                        validation_data=VALID_BATCHES, nb_val_samples=VALID_BATCHES.n)
 
-# print 'Saving model weights...'
-# vgg.model.save_weights(os.path.join(MODEL_PATH, 'finetune_2_full.h5'))
+print 'Saving model weights...'
+vgg.model.save_weights(os.path.join(MODEL_PATH, 'finetune_2_full.h5'))
 
 
-# print 'Evaluating model with validation data...'
-# TEST_LOSS = vgg.model.evaluate(VALID_ARRAY, VALID_LABELS)
-# print 'TEST_LOSS: %s' % (TEST_LOSS,)
+print 'Evaluating model with validation data...'
+TEST_LOSS = vgg.model.evaluate(VALID_ARRAY, VALID_LABELS)
+print 'TEST_LOSS: %s' % (TEST_LOSS,)
 
-# print 'Confusion matrix after full retraining'
-# PREDS = vgg.model.predict_classes(VALID_ARRAY, batch_size=BATCH_SIZE)
-# PROBS = vgg.model.predict_proba(VALID_ARRAY, batch_size=BATCH_SIZE)[:,0]
+print 'Confusion matrix after full retraining'
+PREDS = vgg.model.predict_classes(VALID_ARRAY, batch_size=BATCH_SIZE)
+PROBS = vgg.model.predict_proba(VALID_ARRAY, batch_size=BATCH_SIZE)[:,0]
 
-# CM = confusion_matrix(VALID_CLASSES, PREDS)
-# print CM
+CM = confusion_matrix(VALID_CLASSES, PREDS)
+print CM
 
 print ('Predicting labels for test data set...')
 TEST_BATCHES = utils.get_batches(TEST_PATH, shuffle=False, batch_size=BATCH_SIZE)

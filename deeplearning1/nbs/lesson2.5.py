@@ -15,23 +15,15 @@ Lesson 2 Assignment Plan:
     *	Save the weights from the training in the models/ folder
 3.	Run predictions on the Kaggle dogs and cats test data using the retrained model.
 
-NOTE: This is the same as lesson2.py and lesson2.1.py, but with some (hopefully) improvements.
+NOTE: This is the same as lesson2.py and lesson2.1.py, lesson2.3.py, but with some (hopefully) improvements.
 
-vs. lesson2.2.py:
+vs. lesson2.3.py:
+1. Don't retrain other Dense layers.
+
+vs. lesson2*.py:
 1. Use Nadam optimizer instead of RMSProp.
 2. Use default LR throughout.
-
-vs. lesson2.1.py:
-1. Fix to UserWarning about 'samples_per_epoch' being wrong.
-2. Increase data set size for training last layer.
-3. Increase epochs on last layer training.
-4. Use LR=0.1 on last layer (instead of 0.001)
-5. Use LR=0.01 on earlier layers.
-
-vs. lesson2.py:
-1. Re-train additional Dense layers after training last layer.
-2. Use more epochs on remaining layers (e.g. 4).
-
+3. Run more epochs.
 '''
 
 import os
@@ -79,9 +71,10 @@ def get_batches_and_data(path, target_size=(224, 224)):
     return batches, array
 
 
-# USE_SAMPLE_DATA = True
-USE_SAMPLE_DATA = False
-LOCAL = False
+USE_SAMPLE_DATA = True
+# USE_SAMPLE_DATA = False
+LOCAL = True
+# LOCAL = False
 
 #
 # Constants
@@ -99,7 +92,7 @@ if not USE_SAMPLE_DATA:
     #
     # FloydHub
     #
-    NUM_EPOCHS = 5
+    NUM_EPOCHS = 10
 
     LL_DATA_SIZE = 1.0   # Fraction of train/valid set to use for last layer training.
     LL_NUM_EPOCHS = 5    # Number of epochs to train last layer only.
@@ -108,13 +101,13 @@ else:
     #
     # Sample Set
     #
-    INPUT_PATH = os.path.join(INPUT_PATH, 'sample')
-    OUTPUT_PATH = os.path.join(OUTPUT_PATH, 'sample')
+    INPUT_PATH = os.path.join(INPUT_PATH, 'sample-05')
+    OUTPUT_PATH = os.path.join(OUTPUT_PATH, 'sample-05')
 
-    NUM_EPOCHS = 2
+    NUM_EPOCHS = 4
 
     LL_DATA_SIZE = 1.0   # Fraction of train/valid set to use for last layer training.
-    LL_NUM_EPOCHS = 2    # Number of epochs to train last layer only.
+    LL_NUM_EPOCHS = 4    # Number of epochs to train last layer only.
 
 
 #
@@ -209,15 +202,23 @@ vgg.model.pop()
 for layer in vgg.model.layers: layer.trainable=False
 vgg.model.add(Dense(2, activation='softmax'))
 
-OPTIMIZER = Nadam()
+# OPTIMIZER = Nadam()
+OPTIMIZER = RMSprop(lr=0.001)
 vgg.model.compile(optimizer=OPTIMIZER, loss='categorical_crossentropy', metrics=['accuracy'])
 
 print 'Fitting last layer of model using a subset of samples...'
+# First epoch higher LR
+K.set_value(OPTIMIZER.lr, 0.01)
 vgg.model.fit_generator(TRAIN_BATCHES, samples_per_epoch=TRAIN_BATCHES.n * LL_DATA_SIZE, nb_epoch=LL_NUM_EPOCHS,
                         validation_data=VALID_BATCHES, nb_val_samples=VALID_BATCHES.n * LL_DATA_SIZE)
 
-# print 'Saving model weights...'
-# vgg.model.save_weights(os.path.join(MODEL_PATH, 'finetune_1_ll.h5'))
+# Next batch, lower again
+K.set_value(OPTIMIZER.lr, 0.001)
+vgg.model.fit_generator(TRAIN_BATCHES, samples_per_epoch=TRAIN_BATCHES.n, nb_epoch=LL_NUM_EPOCHS*2,
+                        validation_data=VALID_BATCHES, nb_val_samples=VALID_BATCHES.n)
+
+print 'Saving model weights...'
+vgg.model.save_weights(os.path.join(MODEL_PATH, 'finetune_1_ll.h5'))
 
 print 'Evaluating model with validation data...'
 TEST_LOSS = vgg.model.evaluate(VALID_ARRAY, VALID_LABELS)
@@ -230,31 +231,48 @@ PROBS = vgg.model.predict_proba(VALID_ARRAY, batch_size=BATCH_SIZE)[:, 0]
 CM = confusion_matrix(VALID_CLASSES, PREDS)
 print CM
 
-print 'Re-training other Dense layers...'
-LAYERS = vgg.model.layers
-FIRST_DENSE_IDX = [index for index, layer in enumerate(LAYERS) if type(layer) is Dense][0]
+# print 'Re-training other Dense layers...'
+# LAYERS = vgg.model.layers
+# FIRST_DENSE_IDX = [index for index, layer in enumerate(LAYERS) if type(layer) is Dense][0]
 
-for layer in LAYERS[FIRST_DENSE_IDX:]:
-    layer.trainable = True  # unlock what we locked earlier
+# for layer in LAYERS[FIRST_DENSE_IDX:]:
+#     layer.trainable = True  # unlock what we locked earlier
 
-# full data set now
-vgg.model.fit_generator(TRAIN_BATCHES, samples_per_epoch=TRAIN_BATCHES.n, nb_epoch=NUM_EPOCHS,
-                        validation_data=VALID_BATCHES, nb_val_samples=VALID_BATCHES.n)
+# # full data set now
+# # First epoch low LR
+# K.set_value(OPTIMIZER.lr, 0.001)
+# vgg.model.fit_generator(TRAIN_BATCHES, samples_per_epoch=TRAIN_BATCHES.n, nb_epoch=1,
+#                         validation_data=VALID_BATCHES, nb_val_samples=VALID_BATCHES.n)
 
-print 'Saving model weights...'
-vgg.model.save_weights(os.path.join(MODEL_PATH, 'finetune_2_full.h5'))
+# # Next batch of epochs high LR
+# K.set_value(OPTIMIZER.lr, 0.1)
+# vgg.model.fit_generator(TRAIN_BATCHES, samples_per_epoch=TRAIN_BATCHES.n, nb_epoch=3,
+#                         validation_data=VALID_BATCHES, nb_val_samples=VALID_BATCHES.n)
+
+# # Next batch, lower
+# K.set_value(OPTIMIZER.lr, 0.01)
+# vgg.model.fit_generator(TRAIN_BATCHES, samples_per_epoch=TRAIN_BATCHES.n, nb_epoch=3,
+#                         validation_data=VALID_BATCHES, nb_val_samples=VALID_BATCHES.n)
+
+# # Next batch, lower still
+# K.set_value(OPTIMIZER.lr, 0.001)
+# vgg.model.fit_generator(TRAIN_BATCHES, samples_per_epoch=TRAIN_BATCHES.n, nb_epoch=3,
+#                         validation_data=VALID_BATCHES, nb_val_samples=VALID_BATCHES.n)
+
+# print 'Saving model weights...'
+# vgg.model.save_weights(os.path.join(MODEL_PATH, 'finetune_2_full.h5'))
 
 
-print 'Evaluating model with validation data...'
-TEST_LOSS = vgg.model.evaluate(VALID_ARRAY, VALID_LABELS)
-print 'TEST_LOSS: %s' % (TEST_LOSS,)
+# print 'Evaluating model with validation data...'
+# TEST_LOSS = vgg.model.evaluate(VALID_ARRAY, VALID_LABELS)
+# print 'TEST_LOSS: %s' % (TEST_LOSS,)
 
-print 'Confusion matrix after full retraining'
-PREDS = vgg.model.predict_classes(VALID_ARRAY, batch_size=BATCH_SIZE)
-PROBS = vgg.model.predict_proba(VALID_ARRAY, batch_size=BATCH_SIZE)[:,0]
+# print 'Confusion matrix after full retraining'
+# PREDS = vgg.model.predict_classes(VALID_ARRAY, batch_size=BATCH_SIZE)
+# PROBS = vgg.model.predict_proba(VALID_ARRAY, batch_size=BATCH_SIZE)[:,0]
 
-CM = confusion_matrix(VALID_CLASSES, PREDS)
-print CM
+# CM = confusion_matrix(VALID_CLASSES, PREDS)
+# print CM
 
 print ('Predicting labels for test data set...')
 TEST_BATCHES = utils.get_batches(TEST_PATH, shuffle=False, batch_size=BATCH_SIZE)
