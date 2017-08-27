@@ -1,0 +1,916 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Activation	../deeplearning1\nbs\resnet50.py	/^from keras.layers import Input, Activation, merge$/;"	kind:namespace	line:13
+Activation	../deeplearning1\nbs\utils.py	/^from keras.layers import TimeDistributed, Activation, SimpleRNN, GRU$/;"	kind:namespace	line:40
+Adam	../deeplearning1\nbs\utils.py	/^from keras.optimizers import SGD, RMSprop, Adam$/;"	kind:namespace	line:44
+Adam	../deeplearning1\nbs\vgg16.py	/^from keras.optimizers import SGD, RMSprop, Adam$/;"	kind:namespace	line:16
+Adam	../deeplearning1\nbs\vgg16bn.py	/^from keras.optimizers import SGD, Adam$/;"	kind:namespace	line:16
+AveragePooling2D	../deeplearning1\nbs\resnet50.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D, AveragePooling2D$/;"	kind:namespace	line:16
+BATCH_SIZE	../deeplearning1\nbs\lesson1.py	/^BATCH_SIZE = 64$/;"	kind:variable	line:23
+BATCH_SIZE	../deeplearning1\nbs\lesson2.1.py	/^BATCH_SIZE = 64$/;"	kind:variable	line:106
+BATCH_SIZE	../deeplearning1\nbs\lesson2.2.py	/^    BATCH_SIZE = 10$/;"	kind:variable	line:87
+BATCH_SIZE	../deeplearning1\nbs\lesson2.2.py	/^    BATCH_SIZE = 64$/;"	kind:variable	line:89
+BATCH_SIZE	../deeplearning1\nbs\lesson2.3.py	/^    BATCH_SIZE = 32$/;"	kind:variable	line:91
+BATCH_SIZE	../deeplearning1\nbs\lesson2.3.py	/^    BATCH_SIZE = 64$/;"	kind:variable	line:93
+BATCH_SIZE	../deeplearning1\nbs\lesson2.4.py	/^    BATCH_SIZE = 32$/;"	kind:variable	line:84
+BATCH_SIZE	../deeplearning1\nbs\lesson2.4.py	/^    BATCH_SIZE = 64$/;"	kind:variable	line:86
+BATCH_SIZE	../deeplearning1\nbs\lesson2.5.py	/^    BATCH_SIZE = 32$/;"	kind:variable	line:84
+BATCH_SIZE	../deeplearning1\nbs\lesson2.5.py	/^    BATCH_SIZE = 64$/;"	kind:variable	line:86
+BATCH_SIZE	../deeplearning1\nbs\lesson2.py	/^BATCH_SIZE = 64$/;"	kind:variable	line:86
+BATCH_SIZE	../deeplearning1\nbs\lesson3.0.py	/^BATCH_SIZE = None$/;"	kind:variable	line:80
+BATCH_SIZE	../deeplearning1\nbs\lesson3.1.py	/^BATCH_SIZE = None$/;"	kind:variable	line:81
+BatchNormalization	../deeplearning1\nbs\resnet50.py	/^from keras.layers.normalization import BatchNormalization$/;"	kind:namespace	line:15
+BatchNormalization	../deeplearning1\nbs\utils.py	/^from keras.layers.normalization import BatchNormalization$/;"	kind:namespace	line:43
+BatchNormalization	../deeplearning1\nbs\vgg16.py	/^from keras.layers.normalization import BatchNormalization$/;"	kind:namespace	line:10
+BatchNormalization	../deeplearning1\nbs\vgg16bn.py	/^from keras.layers.normalization import BatchNormalization$/;"	kind:namespace	line:10
+Bidirectional	../deeplearning1\nbs\utils.py	/^from keras.layers import Input, Embedding, Reshape, merge, LSTM, Bidirectional$/;"	kind:namespace	line:39
+CLASSES	../deeplearning1\data_utils\dogscats-redux\split_training_data\split_training_data.py	/^CLASSES = [$/;"	kind:variable	line:48
+CLASSES	../deeplearning1\nbs\lesson2-cli.py	/^CLASSES = [$/;"	kind:variable	line:47
+CM	../deeplearning1\nbs\lesson2.1.py	/^CM = confusion_matrix(VALID_CLASSES, PREDS)$/;"	kind:variable	line:202
+CM	../deeplearning1\nbs\lesson2.1.py	/^CM = confusion_matrix(VALID_CLASSES, PREDS)$/;"	kind:variable	line:231
+CM	../deeplearning1\nbs\lesson2.2.py	/^CM = confusion_matrix(VALID_CLASSES, PREDS)$/;"	kind:variable	line:231
+CM	../deeplearning1\nbs\lesson2.2.py	/^CM = confusion_matrix(VALID_CLASSES, PREDS)$/;"	kind:variable	line:260
+CM	../deeplearning1\nbs\lesson2.3.py	/^CM = confusion_matrix(VALID_CLASSES, PREDS)$/;"	kind:variable	line:230
+CM	../deeplearning1\nbs\lesson2.3.py	/^CM = confusion_matrix(VALID_CLASSES, PREDS)$/;"	kind:variable	line:256
+CM	../deeplearning1\nbs\lesson2.4.py	/^CM = confusion_matrix(VALID_CLASSES, PREDS)$/;"	kind:variable	line:223
+CM	../deeplearning1\nbs\lesson2.4.py	/^CM = confusion_matrix(VALID_CLASSES, PREDS)$/;"	kind:variable	line:249
+CM	../deeplearning1\nbs\lesson2.5.py	/^CM = confusion_matrix(VALID_CLASSES, PREDS)$/;"	kind:variable	line:231
+CM	../deeplearning1\nbs\lesson2.py	/^CM = confusion_matrix(TRAIN_CLASSES, PREDS)$/;"	kind:variable	line:180
+ConvBlock	../deeplearning1\nbs\vgg16.py	/^    def ConvBlock(self, layers, filters):$/;"	kind:member	line:86
+ConvBlock	../deeplearning1\nbs\vgg16bn.py	/^    def ConvBlock(self, layers, filters):$/;"	kind:member	line:54
+Convolution2D	../deeplearning1\nbs\lesson2.1.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:51
+Convolution2D	../deeplearning1\nbs\lesson2.2.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:55
+Convolution2D	../deeplearning1\nbs\lesson2.3.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:59
+Convolution2D	../deeplearning1\nbs\lesson2.4.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:51
+Convolution2D	../deeplearning1\nbs\lesson2.5.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:51
+Convolution2D	../deeplearning1\nbs\lesson2.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:41
+Convolution2D	../deeplearning1\nbs\lesson3.0.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:57
+Convolution2D	../deeplearning1\nbs\lesson3.1.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:58
+Convolution2D	../deeplearning1\nbs\resnet50.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D, AveragePooling2D$/;"	kind:namespace	line:16
+Convolution2D	../deeplearning1\nbs\vgg16.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:14
+Convolution2D	../deeplearning1\nbs\vgg16bn.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:14
+Dense	../deeplearning1\nbs\lesson2.1.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:50
+Dense	../deeplearning1\nbs\lesson2.2.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:54
+Dense	../deeplearning1\nbs\lesson2.3.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:58
+Dense	../deeplearning1\nbs\lesson2.4.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:50
+Dense	../deeplearning1\nbs\lesson2.5.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:50
+Dense	../deeplearning1\nbs\lesson2.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:40
+Dense	../deeplearning1\nbs\lesson3.0.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:56
+Dense	../deeplearning1\nbs\lesson3.1.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:57
+Dense	../deeplearning1\nbs\resnet50.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:12
+Dense	../deeplearning1\nbs\utils.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:41
+Dense	../deeplearning1\nbs\vgg16.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:13
+Dense	../deeplearning1\nbs\vgg16bn.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:13
+Dropout	../deeplearning1\nbs\lesson2.1.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:50
+Dropout	../deeplearning1\nbs\lesson2.2.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:54
+Dropout	../deeplearning1\nbs\lesson2.3.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:58
+Dropout	../deeplearning1\nbs\lesson2.4.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:50
+Dropout	../deeplearning1\nbs\lesson2.5.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:50
+Dropout	../deeplearning1\nbs\lesson2.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:40
+Dropout	../deeplearning1\nbs\lesson3.0.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:56
+Dropout	../deeplearning1\nbs\lesson3.1.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:57
+Dropout	../deeplearning1\nbs\resnet50.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:12
+Dropout	../deeplearning1\nbs\utils.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:41
+Dropout	../deeplearning1\nbs\vgg16.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:13
+Dropout	../deeplearning1\nbs\vgg16bn.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:13
+Embedding	../deeplearning1\nbs\utils.py	/^from keras.layers import Input, Embedding, Reshape, merge, LSTM, Bidirectional$/;"	kind:namespace	line:39
+FCBlock	../deeplearning1\nbs\vgg16.py	/^    def FCBlock(self):$/;"	kind:member	line:104
+FCBlock	../deeplearning1\nbs\vgg16bn.py	/^    def FCBlock(self):$/;"	kind:member	line:62
+FIRST_DENSE_IDX	../deeplearning1\nbs\lesson2.1.py	/^FIRST_DENSE_IDX = [index for index, layer in enumerate(LAYERS) if type(layer) is Dense][0]$/;"	kind:variable	line:207
+FIRST_DENSE_IDX	../deeplearning1\nbs\lesson2.2.py	/^FIRST_DENSE_IDX = [index for index, layer in enumerate(LAYERS) if type(layer) is Dense][0]$/;"	kind:variable	line:236
+FIRST_DENSE_IDX	../deeplearning1\nbs\lesson2.3.py	/^FIRST_DENSE_IDX = [index for index, layer in enumerate(LAYERS) if type(layer) is Dense][0]$/;"	kind:variable	line:235
+FIRST_DENSE_IDX	../deeplearning1\nbs\lesson2.4.py	/^FIRST_DENSE_IDX = [index for index, layer in enumerate(LAYERS) if type(layer) is Dense][0]$/;"	kind:variable	line:228
+FileLink	../deeplearning1\nbs\utils.py	/^from IPython.lib.display import FileLink$/;"	kind:namespace	line:26
+Flatten	../deeplearning1\nbs\lesson2.1.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:50
+Flatten	../deeplearning1\nbs\lesson2.2.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:54
+Flatten	../deeplearning1\nbs\lesson2.3.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:58
+Flatten	../deeplearning1\nbs\lesson2.4.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:50
+Flatten	../deeplearning1\nbs\lesson2.5.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:50
+Flatten	../deeplearning1\nbs\lesson2.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:40
+Flatten	../deeplearning1\nbs\lesson3.0.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:56
+Flatten	../deeplearning1\nbs\lesson3.1.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:57
+Flatten	../deeplearning1\nbs\resnet50.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:12
+Flatten	../deeplearning1\nbs\utils.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:41
+Flatten	../deeplearning1\nbs\vgg16.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:13
+Flatten	../deeplearning1\nbs\vgg16bn.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:13
+GRU	../deeplearning1\nbs\utils.py	/^from keras.layers import TimeDistributed, Activation, SimpleRNN, GRU$/;"	kind:namespace	line:40
+GlobalAveragePooling2D	../deeplearning1\nbs\vgg16.py	/^from keras.layers.pooling import GlobalAveragePooling2D$/;"	kind:namespace	line:15
+GlobalAveragePooling2D	../deeplearning1\nbs\vgg16bn.py	/^from keras.layers.pooling import GlobalAveragePooling2D$/;"	kind:namespace	line:15
+IDS	../deeplearning1\nbs\lesson2.1.py	/^IDS = np.array([int(os.path.splitext(os.path.basename(f))[0])$/;"	kind:variable	line:252
+IDS	../deeplearning1\nbs\lesson2.2.py	/^IDS = np.array([int(os.path.splitext(os.path.basename(f))[0])$/;"	kind:variable	line:281
+IDS	../deeplearning1\nbs\lesson2.3.py	/^IDS = np.array([int(os.path.splitext(os.path.basename(f))[0])$/;"	kind:variable	line:277
+IDS	../deeplearning1\nbs\lesson2.4.py	/^IDS = np.array([int(os.path.splitext(os.path.basename(f))[0])$/;"	kind:variable	line:270
+IDS	../deeplearning1\nbs\lesson2.5.py	/^IDS = np.array([int(os.path.splitext(os.path.basename(f))[0])$/;"	kind:variable	line:295
+IDS	../deeplearning1\nbs\lesson2.py	/^IDS = np.array([int(os.path.splitext(os.path.basename(f))[0])$/;"	kind:variable	line:201
+INPUT_PATH	../deeplearning1\nbs\lesson1.py	/^INPUT_PATH = '\/input\/'$/;"	kind:variable	line:13
+INPUT_PATH	../deeplearning1\nbs\lesson2.1.py	/^INPUT_PATH = '\/input\/'$/;"	kind:variable	line:72
+INPUT_PATH	../deeplearning1\nbs\lesson2.2.py	/^    INPUT_PATH = '\/input\/'$/;"	kind:variable	line:95
+INPUT_PATH	../deeplearning1\nbs\lesson2.2.py	/^    INPUT_PATH = '\/input\/sample\/'$/;"	kind:variable	line:110
+INPUT_PATH	../deeplearning1\nbs\lesson2.3.py	/^    INPUT_PATH = os.path.join(INPUT_PATH, 'sample')$/;"	kind:variable	line:111
+INPUT_PATH	../deeplearning1\nbs\lesson2.3.py	/^INPUT_PATH = os.path.join('.', 'input')$/;"	kind:variable	line:95
+INPUT_PATH	../deeplearning1\nbs\lesson2.4.py	/^    INPUT_PATH = os.path.join(INPUT_PATH, 'sample')$/;"	kind:variable	line:104
+INPUT_PATH	../deeplearning1\nbs\lesson2.4.py	/^INPUT_PATH = os.path.join('.', 'input')$/;"	kind:variable	line:88
+INPUT_PATH	../deeplearning1\nbs\lesson2.5.py	/^    INPUT_PATH = os.path.join(INPUT_PATH, 'sample-05')$/;"	kind:variable	line:104
+INPUT_PATH	../deeplearning1\nbs\lesson2.5.py	/^INPUT_PATH = os.path.join('.', 'input')$/;"	kind:variable	line:88
+INPUT_PATH	../deeplearning1\nbs\lesson2.py	/^INPUT_PATH = '\/input\/'$/;"	kind:variable	line:52
+INPUT_PATH	../deeplearning1\nbs\lesson3.0.py	/^INPUT_PATH = None$/;"	kind:variable	line:72
+INPUT_PATH	../deeplearning1\nbs\lesson3.1.py	/^INPUT_PATH = None$/;"	kind:variable	line:73
+IS_DOG	../deeplearning1\nbs\lesson2.1.py	/^IS_DOG = IS_DOG.clip(min=0.05, max=0.95)$/;"	kind:variable	line:249
+IS_DOG	../deeplearning1\nbs\lesson2.1.py	/^IS_DOG = TEST_PREDS[:, 1]$/;"	kind:variable	line:245
+IS_DOG	../deeplearning1\nbs\lesson2.2.py	/^IS_DOG = IS_DOG.clip(min=0.05, max=0.95)$/;"	kind:variable	line:278
+IS_DOG	../deeplearning1\nbs\lesson2.2.py	/^IS_DOG = TEST_PREDS[:, 1]$/;"	kind:variable	line:274
+IS_DOG	../deeplearning1\nbs\lesson2.3.py	/^IS_DOG = IS_DOG.clip(min=0.05, max=0.95)$/;"	kind:variable	line:274
+IS_DOG	../deeplearning1\nbs\lesson2.3.py	/^IS_DOG = TEST_PREDS[:, 1]$/;"	kind:variable	line:270
+IS_DOG	../deeplearning1\nbs\lesson2.4.py	/^IS_DOG = IS_DOG.clip(min=0.05, max=0.95)$/;"	kind:variable	line:267
+IS_DOG	../deeplearning1\nbs\lesson2.4.py	/^IS_DOG = TEST_PREDS[:, 1]$/;"	kind:variable	line:263
+IS_DOG	../deeplearning1\nbs\lesson2.5.py	/^IS_DOG = IS_DOG.clip(min=0.05, max=0.95)$/;"	kind:variable	line:292
+IS_DOG	../deeplearning1\nbs\lesson2.5.py	/^IS_DOG = TEST_PREDS[:, 1]$/;"	kind:variable	line:288
+IS_DOG	../deeplearning1\nbs\lesson2.py	/^IS_DOG = IS_DOG.clip(min=0.05, max=0.95)$/;"	kind:variable	line:198
+IS_DOG	../deeplearning1\nbs\lesson2.py	/^IS_DOG = TEST_PREDS[:, 1]$/;"	kind:variable	line:194
+Image	../deeplearning1\nbs\utils.py	/^from PIL import Image$/;"	kind:namespace	line:14
+Input	../deeplearning1\nbs\lesson2.1.py	/^from keras.layers import Input$/;"	kind:namespace	line:49
+Input	../deeplearning1\nbs\lesson2.2.py	/^from keras.layers import Input$/;"	kind:namespace	line:53
+Input	../deeplearning1\nbs\lesson2.3.py	/^from keras.layers import Input$/;"	kind:namespace	line:57
+Input	../deeplearning1\nbs\lesson2.4.py	/^from keras.layers import Input$/;"	kind:namespace	line:49
+Input	../deeplearning1\nbs\lesson2.5.py	/^from keras.layers import Input$/;"	kind:namespace	line:49
+Input	../deeplearning1\nbs\lesson2.py	/^from keras.layers import Input$/;"	kind:namespace	line:39
+Input	../deeplearning1\nbs\lesson3.0.py	/^from keras.layers import Input$/;"	kind:namespace	line:55
+Input	../deeplearning1\nbs\lesson3.1.py	/^from keras.layers import Input$/;"	kind:namespace	line:56
+Input	../deeplearning1\nbs\resnet50.py	/^from keras.layers import Input, Activation, merge$/;"	kind:namespace	line:13
+Input	../deeplearning1\nbs\utils.py	/^from keras.layers import Input, Embedding, Reshape, merge, LSTM, Bidirectional$/;"	kind:namespace	line:39
+K	../deeplearning1\nbs\lesson2.1.py	/^from keras import backend as K$/;"	kind:namespace	line:46
+K	../deeplearning1\nbs\lesson2.2.py	/^from keras import backend as K$/;"	kind:namespace	line:50
+K	../deeplearning1\nbs\lesson2.3.py	/^from keras import backend as K$/;"	kind:namespace	line:54
+K	../deeplearning1\nbs\lesson2.4.py	/^from keras import backend as K$/;"	kind:namespace	line:46
+K	../deeplearning1\nbs\lesson2.5.py	/^from keras import backend as K$/;"	kind:namespace	line:46
+K	../deeplearning1\nbs\lesson2.py	/^from keras import backend as K$/;"	kind:namespace	line:36
+K	../deeplearning1\nbs\lesson3.0.py	/^from keras import backend as K$/;"	kind:namespace	line:52
+K	../deeplearning1\nbs\lesson3.1.py	/^from keras import backend as K$/;"	kind:namespace	line:53
+K	../deeplearning1\nbs\resnet50.py	/^from keras import backend as K$/;"	kind:namespace	line:10
+K	../deeplearning1\nbs\utils.py	/^from keras import backend as K$/;"	kind:namespace	line:34
+K	../deeplearning1\nbs\vgg16.py	/^from keras import backend as K$/;"	kind:namespace	line:20
+K	../deeplearning1\nbs\vgg16.py	/^from keras import backend as K$/;"	kind:namespace	line:9
+K	../deeplearning1\nbs\vgg16bn.py	/^from keras import backend as K$/;"	kind:namespace	line:20
+K	../deeplearning1\nbs\vgg16bn.py	/^from keras import backend as K$/;"	kind:namespace	line:9
+LAYERS	../deeplearning1\nbs\lesson2.1.py	/^LAYERS = vgg.model.layers$/;"	kind:variable	line:206
+LAYERS	../deeplearning1\nbs\lesson2.2.py	/^LAYERS = vgg.model.layers$/;"	kind:variable	line:235
+LAYERS	../deeplearning1\nbs\lesson2.3.py	/^LAYERS = vgg.model.layers$/;"	kind:variable	line:234
+LAYERS	../deeplearning1\nbs\lesson2.4.py	/^LAYERS = vgg.model.layers$/;"	kind:variable	line:227
+LL_DATA_SIZE	../deeplearning1\nbs\lesson2.1.py	/^LL_DATA_SIZE = 0.25    # Fraction of train\/valid set to use for last layer training.$/;"	kind:variable	line:109
+LL_DATA_SIZE	../deeplearning1\nbs\lesson2.2.py	/^    LL_DATA_SIZE = 1.0   # Fraction of train\/valid set to use for last layer training.$/;"	kind:variable	line:101
+LL_DATA_SIZE	../deeplearning1\nbs\lesson2.2.py	/^    LL_DATA_SIZE = 1.0   # Fraction of train\/valid set to use for last layer training.$/;"	kind:variable	line:116
+LL_DATA_SIZE	../deeplearning1\nbs\lesson2.3.py	/^    LL_DATA_SIZE = 1.0   # Fraction of train\/valid set to use for last layer training.$/;"	kind:variable	line:104
+LL_DATA_SIZE	../deeplearning1\nbs\lesson2.3.py	/^    LL_DATA_SIZE = 1.0   # Fraction of train\/valid set to use for last layer training.$/;"	kind:variable	line:116
+LL_DATA_SIZE	../deeplearning1\nbs\lesson2.4.py	/^    LL_DATA_SIZE = 1.0   # Fraction of train\/valid set to use for last layer training.$/;"	kind:variable	line:109
+LL_DATA_SIZE	../deeplearning1\nbs\lesson2.4.py	/^    LL_DATA_SIZE = 1.0   # Fraction of train\/valid set to use for last layer training.$/;"	kind:variable	line:97
+LL_DATA_SIZE	../deeplearning1\nbs\lesson2.5.py	/^    LL_DATA_SIZE = 1.0   # Fraction of train\/valid set to use for last layer training.$/;"	kind:variable	line:109
+LL_DATA_SIZE	../deeplearning1\nbs\lesson2.5.py	/^    LL_DATA_SIZE = 1.0   # Fraction of train\/valid set to use for last layer training.$/;"	kind:variable	line:97
+LL_LR	../deeplearning1\nbs\lesson2.1.py	/^LL_LR = 0.01$/;"	kind:variable	line:111
+LL_LR	../deeplearning1\nbs\lesson2.2.py	/^    LL_LR = 0.001$/;"	kind:variable	line:104
+LL_LR	../deeplearning1\nbs\lesson2.2.py	/^    LL_LR = 0.001$/;"	kind:variable	line:118
+LL_NUM_EPOCHS	../deeplearning1\nbs\lesson2.1.py	/^LL_NUM_EPOCHS = 3      # Number of epochs to train last layer only.$/;"	kind:variable	line:110
+LL_NUM_EPOCHS	../deeplearning1\nbs\lesson2.2.py	/^    LL_NUM_EPOCHS = 2    # Number of epochs to train last layer only.$/;"	kind:variable	line:117
+LL_NUM_EPOCHS	../deeplearning1\nbs\lesson2.2.py	/^    LL_NUM_EPOCHS = 5    # Number of epochs to train last layer only.$/;"	kind:variable	line:102
+LL_NUM_EPOCHS	../deeplearning1\nbs\lesson2.3.py	/^    LL_NUM_EPOCHS = 2    # Number of epochs to train last layer only.$/;"	kind:variable	line:117
+LL_NUM_EPOCHS	../deeplearning1\nbs\lesson2.3.py	/^    LL_NUM_EPOCHS = 5    # Number of epochs to train last layer only.$/;"	kind:variable	line:105
+LL_NUM_EPOCHS	../deeplearning1\nbs\lesson2.4.py	/^    LL_NUM_EPOCHS = 2    # Number of epochs to train last layer only.$/;"	kind:variable	line:110
+LL_NUM_EPOCHS	../deeplearning1\nbs\lesson2.4.py	/^    LL_NUM_EPOCHS = 5    # Number of epochs to train last layer only.$/;"	kind:variable	line:98
+LL_NUM_EPOCHS	../deeplearning1\nbs\lesson2.5.py	/^    LL_NUM_EPOCHS = 4    # Number of epochs to train last layer only.$/;"	kind:variable	line:110
+LL_NUM_EPOCHS	../deeplearning1\nbs\lesson2.5.py	/^    LL_NUM_EPOCHS = 5    # Number of epochs to train last layer only.$/;"	kind:variable	line:98
+LOCAL	../deeplearning1\nbs\lesson2.2.py	/^LOCAL = False$/;"	kind:variable	line:80
+LOCAL	../deeplearning1\nbs\lesson2.3.py	/^LOCAL = False$/;"	kind:variable	line:84
+LOCAL	../deeplearning1\nbs\lesson2.4.py	/^LOCAL = True$/;"	kind:variable	line:76
+LOCAL	../deeplearning1\nbs\lesson2.5.py	/^LOCAL = True$/;"	kind:variable	line:76
+LR	../deeplearning1\nbs\lesson2.1.py	/^LR = 0.001$/;"	kind:variable	line:108
+LR	../deeplearning1\nbs\lesson2.2.py	/^    LR = 0.001$/;"	kind:variable	line:114
+LR	../deeplearning1\nbs\lesson2.2.py	/^    LR = 0.001$/;"	kind:variable	line:99
+LSTM	../deeplearning1\nbs\utils.py	/^from keras.layers import Input, Embedding, Reshape, merge, LSTM, Bidirectional$/;"	kind:namespace	line:39
+Lambda	../deeplearning1\nbs\lesson2.1.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:50
+Lambda	../deeplearning1\nbs\lesson2.2.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:54
+Lambda	../deeplearning1\nbs\lesson2.3.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:58
+Lambda	../deeplearning1\nbs\lesson2.4.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:50
+Lambda	../deeplearning1\nbs\lesson2.5.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:50
+Lambda	../deeplearning1\nbs\lesson2.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:40
+Lambda	../deeplearning1\nbs\lesson3.0.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:56
+Lambda	../deeplearning1\nbs\lesson3.1.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:57
+Lambda	../deeplearning1\nbs\resnet50.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:12
+Lambda	../deeplearning1\nbs\utils.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:41
+Lambda	../deeplearning1\nbs\vgg16.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:13
+Lambda	../deeplearning1\nbs\vgg16bn.py	/^from keras.layers.core import Flatten, Dense, Dropout, Lambda$/;"	kind:namespace	line:13
+MODEL_FOLDER	../deeplearning1\nbs\lesson2-cli.py	/^MODEL_FOLDER = 'model'$/;"	kind:variable	line:44
+MODEL_PATH	../deeplearning1\nbs\lesson2.1.py	/^MODEL_PATH = os.path.join(OUTPUT_PATH, 'models')$/;"	kind:variable	line:90
+MODEL_PATH	../deeplearning1\nbs\lesson2.2.py	/^MODEL_PATH = os.path.join(OUTPUT_PATH, 'models')$/;"	kind:variable	line:142
+MODEL_PATH	../deeplearning1\nbs\lesson2.3.py	/^MODEL_PATH = os.path.join(OUTPUT_PATH, 'models')$/;"	kind:variable	line:141
+MODEL_PATH	../deeplearning1\nbs\lesson2.4.py	/^MODEL_PATH = os.path.join(OUTPUT_PATH, 'models')$/;"	kind:variable	line:134
+MODEL_PATH	../deeplearning1\nbs\lesson2.5.py	/^MODEL_PATH = os.path.join(OUTPUT_PATH, 'models')$/;"	kind:variable	line:134
+MODEL_PATH	../deeplearning1\nbs\lesson2.py	/^MODEL_PATH = os.path.join(OUTPUT_PATH, 'models')$/;"	kind:variable	line:70
+MODEL_PATH	../deeplearning1\nbs\lesson3.0.py	/^MODEL_PATH = None$/;"	kind:variable	line:77
+MODEL_PATH	../deeplearning1\nbs\lesson3.1.py	/^MODEL_PATH = None$/;"	kind:variable	line:78
+MaxPooling2D	../deeplearning1\nbs\lesson2.1.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:51
+MaxPooling2D	../deeplearning1\nbs\lesson2.2.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:55
+MaxPooling2D	../deeplearning1\nbs\lesson2.3.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:59
+MaxPooling2D	../deeplearning1\nbs\lesson2.4.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:51
+MaxPooling2D	../deeplearning1\nbs\lesson2.5.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:51
+MaxPooling2D	../deeplearning1\nbs\lesson2.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:41
+MaxPooling2D	../deeplearning1\nbs\lesson3.0.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:57
+MaxPooling2D	../deeplearning1\nbs\lesson3.1.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:58
+MaxPooling2D	../deeplearning1\nbs\resnet50.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D, AveragePooling2D$/;"	kind:namespace	line:16
+MaxPooling2D	../deeplearning1\nbs\vgg16.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:14
+MaxPooling2D	../deeplearning1\nbs\vgg16bn.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:14
+MixIterator	../deeplearning1\nbs\utils.py	/^class MixIterator(object):$/;"	kind:class	line:237
+Model	../deeplearning1\nbs\resnet50.py	/^from keras.models import Sequential, Model$/;"	kind:namespace	line:11
+Model	../deeplearning1\nbs\utils.py	/^from keras.models import Sequential, Model$/;"	kind:namespace	line:38
+NUM_EPOCHS	../deeplearning1\nbs\lesson1.py	/^NUM_EPOCHS = 6$/;"	kind:variable	line:25
+NUM_EPOCHS	../deeplearning1\nbs\lesson2.1.py	/^NUM_EPOCHS = 5$/;"	kind:variable	line:107
+NUM_EPOCHS	../deeplearning1\nbs\lesson2.2.py	/^    NUM_EPOCHS = 2$/;"	kind:variable	line:113
+NUM_EPOCHS	../deeplearning1\nbs\lesson2.2.py	/^    NUM_EPOCHS = 5$/;"	kind:variable	line:98
+NUM_EPOCHS	../deeplearning1\nbs\lesson2.3.py	/^    NUM_EPOCHS = 2$/;"	kind:variable	line:114
+NUM_EPOCHS	../deeplearning1\nbs\lesson2.3.py	/^    NUM_EPOCHS = 5$/;"	kind:variable	line:102
+NUM_EPOCHS	../deeplearning1\nbs\lesson2.4.py	/^    NUM_EPOCHS = 10$/;"	kind:variable	line:95
+NUM_EPOCHS	../deeplearning1\nbs\lesson2.4.py	/^    NUM_EPOCHS = 2$/;"	kind:variable	line:107
+NUM_EPOCHS	../deeplearning1\nbs\lesson2.5.py	/^    NUM_EPOCHS = 10$/;"	kind:variable	line:95
+NUM_EPOCHS	../deeplearning1\nbs\lesson2.5.py	/^    NUM_EPOCHS = 4$/;"	kind:variable	line:107
+NUM_EPOCHS	../deeplearning1\nbs\lesson2.py	/^NUM_EPOCHS = 5$/;"	kind:variable	line:87
+NUM_EPOCHS	../deeplearning1\nbs\lesson3.0.py	/^NUM_EPOCHS = None$/;"	kind:variable	line:81
+NUM_EPOCHS	../deeplearning1\nbs\lesson3.1.py	/^NUM_EPOCHS = None$/;"	kind:variable	line:82
+Nadam	../deeplearning1\nbs\lesson2.3.py	/^from keras.optimizers import SGD, RMSprop, Nadam$/;"	kind:namespace	line:60
+Nadam	../deeplearning1\nbs\lesson2.4.py	/^from keras.optimizers import SGD, RMSprop, Nadam$/;"	kind:namespace	line:52
+Nadam	../deeplearning1\nbs\lesson2.5.py	/^from keras.optimizers import SGD, RMSprop, Nadam$/;"	kind:namespace	line:52
+Nadam	../deeplearning1\nbs\lesson3.0.py	/^from keras.optimizers import SGD, RMSprop, Nadam$/;"	kind:namespace	line:58
+Nadam	../deeplearning1\nbs\lesson3.1.py	/^from keras.optimizers import SGD, RMSprop, Nadam$/;"	kind:namespace	line:59
+OPTIMIZER	../deeplearning1\nbs\lesson2.1.py	/^OPTIMIZER = RMSprop(lr=LL_LR)   # Larger LR for this run$/;"	kind:variable	line:188
+OPTIMIZER	../deeplearning1\nbs\lesson2.2.py	/^OPTIMIZER = RMSprop(lr=LL_LR)   # Larger LR for this run$/;"	kind:variable	line:213
+OPTIMIZER	../deeplearning1\nbs\lesson2.3.py	/^OPTIMIZER = Nadam()$/;"	kind:variable	line:212
+OPTIMIZER	../deeplearning1\nbs\lesson2.4.py	/^OPTIMIZER = Nadam()$/;"	kind:variable	line:205
+OPTIMIZER	../deeplearning1\nbs\lesson2.5.py	/^OPTIMIZER = RMSprop(lr=0.001)$/;"	kind:variable	line:206
+OUTPUT_PATH	../deeplearning1\nbs\lesson1.py	/^OUTPUT_PATH = '\/output\/'$/;"	kind:variable	line:14
+OUTPUT_PATH	../deeplearning1\nbs\lesson2.1.py	/^OUTPUT_PATH = '\/output\/'$/;"	kind:variable	line:86
+OUTPUT_PATH	../deeplearning1\nbs\lesson2.2.py	/^    OUTPUT_PATH = '\/output\/'$/;"	kind:variable	line:96
+OUTPUT_PATH	../deeplearning1\nbs\lesson2.2.py	/^    OUTPUT_PATH = '\/output\/sample'$/;"	kind:variable	line:111
+OUTPUT_PATH	../deeplearning1\nbs\lesson2.3.py	/^    OUTPUT_PATH = os.path.join(OUTPUT_PATH, 'sample')$/;"	kind:variable	line:112
+OUTPUT_PATH	../deeplearning1\nbs\lesson2.3.py	/^OUTPUT_PATH = os.path.join('.', 'output')$/;"	kind:variable	line:96
+OUTPUT_PATH	../deeplearning1\nbs\lesson2.4.py	/^    OUTPUT_PATH = os.path.join(OUTPUT_PATH, 'sample')$/;"	kind:variable	line:105
+OUTPUT_PATH	../deeplearning1\nbs\lesson2.4.py	/^OUTPUT_PATH = os.path.join('.', 'output')$/;"	kind:variable	line:89
+OUTPUT_PATH	../deeplearning1\nbs\lesson2.5.py	/^    OUTPUT_PATH = os.path.join(OUTPUT_PATH, 'sample-05')$/;"	kind:variable	line:105
+OUTPUT_PATH	../deeplearning1\nbs\lesson2.5.py	/^OUTPUT_PATH = os.path.join('.', 'output')$/;"	kind:variable	line:89
+OUTPUT_PATH	../deeplearning1\nbs\lesson2.py	/^OUTPUT_PATH = '\/output\/'$/;"	kind:variable	line:66
+OUTPUT_PATH	../deeplearning1\nbs\lesson3.0.py	/^OUTPUT_PATH = None$/;"	kind:variable	line:73
+OUTPUT_PATH	../deeplearning1\nbs\lesson3.1.py	/^OUTPUT_PATH = None$/;"	kind:variable	line:74
+OneHotEncoder	../deeplearning1\nbs\lesson2.1.py	/^from sklearn.preprocessing import OneHotEncoder$/;"	kind:namespace	line:38
+OneHotEncoder	../deeplearning1\nbs\lesson2.2.py	/^from sklearn.preprocessing import OneHotEncoder$/;"	kind:namespace	line:42
+OneHotEncoder	../deeplearning1\nbs\lesson2.3.py	/^from sklearn.preprocessing import OneHotEncoder$/;"	kind:namespace	line:46
+OneHotEncoder	../deeplearning1\nbs\lesson2.4.py	/^from sklearn.preprocessing import OneHotEncoder$/;"	kind:namespace	line:38
+OneHotEncoder	../deeplearning1\nbs\lesson2.5.py	/^from sklearn.preprocessing import OneHotEncoder$/;"	kind:namespace	line:38
+OneHotEncoder	../deeplearning1\nbs\lesson2.py	/^from sklearn.preprocessing import OneHotEncoder$/;"	kind:namespace	line:28
+OneHotEncoder	../deeplearning1\nbs\lesson3.0.py	/^from sklearn.preprocessing import OneHotEncoder$/;"	kind:namespace	line:44
+OneHotEncoder	../deeplearning1\nbs\lesson3.1.py	/^from sklearn.preprocessing import OneHotEncoder$/;"	kind:namespace	line:45
+OneHotEncoder	../deeplearning1\nbs\utils.py	/^from sklearn.preprocessing import OneHotEncoder$/;"	kind:namespace	line:23
+OrderedDict	../deeplearning1\nbs\utils.py	/^from collections import OrderedDict$/;"	kind:namespace	line:8
+PIL	../deeplearning1\nbs\utils.py	/^import PIL$/;"	kind:namespace	line:13
+PREDS	../deeplearning1\nbs\lesson2.1.py	/^PREDS = vgg.model.predict_classes(VALID_ARRAY, batch_size=BATCH_SIZE)$/;"	kind:variable	line:199
+PREDS	../deeplearning1\nbs\lesson2.1.py	/^PREDS = vgg.model.predict_classes(VALID_ARRAY, batch_size=BATCH_SIZE)$/;"	kind:variable	line:228
+PREDS	../deeplearning1\nbs\lesson2.2.py	/^PREDS = vgg.model.predict_classes(VALID_ARRAY, batch_size=BATCH_SIZE)$/;"	kind:variable	line:228
+PREDS	../deeplearning1\nbs\lesson2.2.py	/^PREDS = vgg.model.predict_classes(VALID_ARRAY, batch_size=BATCH_SIZE)$/;"	kind:variable	line:257
+PREDS	../deeplearning1\nbs\lesson2.3.py	/^PREDS = vgg.model.predict_classes(VALID_ARRAY, batch_size=BATCH_SIZE)$/;"	kind:variable	line:227
+PREDS	../deeplearning1\nbs\lesson2.3.py	/^PREDS = vgg.model.predict_classes(VALID_ARRAY, batch_size=BATCH_SIZE)$/;"	kind:variable	line:253
+PREDS	../deeplearning1\nbs\lesson2.4.py	/^PREDS = vgg.model.predict_classes(VALID_ARRAY, batch_size=BATCH_SIZE)$/;"	kind:variable	line:220
+PREDS	../deeplearning1\nbs\lesson2.4.py	/^PREDS = vgg.model.predict_classes(VALID_ARRAY, batch_size=BATCH_SIZE)$/;"	kind:variable	line:246
+PREDS	../deeplearning1\nbs\lesson2.5.py	/^PREDS = vgg.model.predict_classes(VALID_ARRAY, batch_size=BATCH_SIZE)$/;"	kind:variable	line:228
+PREDS	../deeplearning1\nbs\lesson2.py	/^PREDS = vgg.model.predict_classes(TRAIN_ARRAY, batch_size=BATCH_SIZE)$/;"	kind:variable	line:177
+PROBS	../deeplearning1\nbs\lesson2.1.py	/^PROBS = vgg.model.predict_proba(VALID_ARRAY, batch_size=BATCH_SIZE)[:, 0]$/;"	kind:variable	line:200
+PROBS	../deeplearning1\nbs\lesson2.1.py	/^PROBS = vgg.model.predict_proba(VALID_ARRAY, batch_size=BATCH_SIZE)[:,0]$/;"	kind:variable	line:229
+PROBS	../deeplearning1\nbs\lesson2.2.py	/^PROBS = vgg.model.predict_proba(VALID_ARRAY, batch_size=BATCH_SIZE)[:, 0]$/;"	kind:variable	line:229
+PROBS	../deeplearning1\nbs\lesson2.2.py	/^PROBS = vgg.model.predict_proba(VALID_ARRAY, batch_size=BATCH_SIZE)[:,0]$/;"	kind:variable	line:258
+PROBS	../deeplearning1\nbs\lesson2.3.py	/^PROBS = vgg.model.predict_proba(VALID_ARRAY, batch_size=BATCH_SIZE)[:, 0]$/;"	kind:variable	line:228
+PROBS	../deeplearning1\nbs\lesson2.3.py	/^PROBS = vgg.model.predict_proba(VALID_ARRAY, batch_size=BATCH_SIZE)[:,0]$/;"	kind:variable	line:254
+PROBS	../deeplearning1\nbs\lesson2.4.py	/^PROBS = vgg.model.predict_proba(VALID_ARRAY, batch_size=BATCH_SIZE)[:, 0]$/;"	kind:variable	line:221
+PROBS	../deeplearning1\nbs\lesson2.4.py	/^PROBS = vgg.model.predict_proba(VALID_ARRAY, batch_size=BATCH_SIZE)[:,0]$/;"	kind:variable	line:247
+PROBS	../deeplearning1\nbs\lesson2.5.py	/^PROBS = vgg.model.predict_proba(VALID_ARRAY, batch_size=BATCH_SIZE)[:, 0]$/;"	kind:variable	line:229
+PROBS	../deeplearning1\nbs\lesson2.py	/^PROBS = vgg.model.predict_proba(TRAIN_ARRAY, batch_size=BATCH_SIZE)[:,0]$/;"	kind:variable	line:178
+RESULTS_PATH	../deeplearning1\nbs\lesson2.1.py	/^RESULTS_PATH = os.path.join(OUTPUT_PATH, 'results')$/;"	kind:variable	line:94
+RESULTS_PATH	../deeplearning1\nbs\lesson2.2.py	/^RESULTS_PATH = os.path.join(OUTPUT_PATH, 'results')$/;"	kind:variable	line:146
+RESULTS_PATH	../deeplearning1\nbs\lesson2.3.py	/^RESULTS_PATH = os.path.join(OUTPUT_PATH, 'results')$/;"	kind:variable	line:145
+RESULTS_PATH	../deeplearning1\nbs\lesson2.4.py	/^RESULTS_PATH = os.path.join(OUTPUT_PATH, 'results')$/;"	kind:variable	line:138
+RESULTS_PATH	../deeplearning1\nbs\lesson2.5.py	/^RESULTS_PATH = os.path.join(OUTPUT_PATH, 'results')$/;"	kind:variable	line:138
+RESULTS_PATH	../deeplearning1\nbs\lesson2.py	/^RESULTS_PATH = os.path.join(OUTPUT_PATH, 'results')$/;"	kind:variable	line:74
+RESULTS_PATH	../deeplearning1\nbs\lesson3.0.py	/^RESULTS_PATH = None$/;"	kind:variable	line:78
+RESULTS_PATH	../deeplearning1\nbs\lesson3.1.py	/^RESULTS_PATH = None$/;"	kind:variable	line:79
+RMSprop	../deeplearning1\nbs\lesson2.1.py	/^from keras.optimizers import SGD, RMSprop$/;"	kind:namespace	line:52
+RMSprop	../deeplearning1\nbs\lesson2.2.py	/^from keras.optimizers import SGD, RMSprop$/;"	kind:namespace	line:56
+RMSprop	../deeplearning1\nbs\lesson2.3.py	/^from keras.optimizers import SGD, RMSprop, Nadam$/;"	kind:namespace	line:60
+RMSprop	../deeplearning1\nbs\lesson2.4.py	/^from keras.optimizers import SGD, RMSprop, Nadam$/;"	kind:namespace	line:52
+RMSprop	../deeplearning1\nbs\lesson2.5.py	/^from keras.optimizers import SGD, RMSprop, Nadam$/;"	kind:namespace	line:52
+RMSprop	../deeplearning1\nbs\lesson2.py	/^from keras.optimizers import SGD, RMSprop$/;"	kind:namespace	line:42
+RMSprop	../deeplearning1\nbs\lesson3.0.py	/^from keras.optimizers import SGD, RMSprop, Nadam$/;"	kind:namespace	line:58
+RMSprop	../deeplearning1\nbs\lesson3.1.py	/^from keras.optimizers import SGD, RMSprop, Nadam$/;"	kind:namespace	line:59
+RMSprop	../deeplearning1\nbs\resnet50.py	/^from keras.optimizers import RMSprop$/;"	kind:namespace	line:14
+RMSprop	../deeplearning1\nbs\utils.py	/^from keras.optimizers import SGD, RMSprop, Adam$/;"	kind:namespace	line:44
+RMSprop	../deeplearning1\nbs\vgg16.py	/^from keras.optimizers import SGD, RMSprop, Adam$/;"	kind:namespace	line:16
+Reshape	../deeplearning1\nbs\utils.py	/^from keras.layers import Input, Embedding, Reshape, merge, LSTM, Bidirectional$/;"	kind:namespace	line:39
+Resnet50	../deeplearning1\nbs\resnet50.py	/^class Resnet50():$/;"	kind:class	line:23
+SAMPLE_FOLDER	../deeplearning1\data_utils\dogscats-redux\split_training_data\split_training_data.py	/^SAMPLE_FOLDER = 'sample'$/;"	kind:variable	line:46
+SAMPLE_FOLDER	../deeplearning1\nbs\lesson2-cli.py	/^SAMPLE_FOLDER = 'sample'$/;"	kind:variable	line:43
+SGD	../deeplearning1\nbs\lesson2.1.py	/^from keras.optimizers import SGD, RMSprop$/;"	kind:namespace	line:52
+SGD	../deeplearning1\nbs\lesson2.2.py	/^from keras.optimizers import SGD, RMSprop$/;"	kind:namespace	line:56
+SGD	../deeplearning1\nbs\lesson2.3.py	/^from keras.optimizers import SGD, RMSprop, Nadam$/;"	kind:namespace	line:60
+SGD	../deeplearning1\nbs\lesson2.4.py	/^from keras.optimizers import SGD, RMSprop, Nadam$/;"	kind:namespace	line:52
+SGD	../deeplearning1\nbs\lesson2.5.py	/^from keras.optimizers import SGD, RMSprop, Nadam$/;"	kind:namespace	line:52
+SGD	../deeplearning1\nbs\lesson2.py	/^from keras.optimizers import SGD, RMSprop$/;"	kind:namespace	line:42
+SGD	../deeplearning1\nbs\lesson3.0.py	/^from keras.optimizers import SGD, RMSprop, Nadam$/;"	kind:namespace	line:58
+SGD	../deeplearning1\nbs\lesson3.1.py	/^from keras.optimizers import SGD, RMSprop, Nadam$/;"	kind:namespace	line:59
+SGD	../deeplearning1\nbs\utils.py	/^from keras.optimizers import SGD, RMSprop, Adam$/;"	kind:namespace	line:44
+SGD	../deeplearning1\nbs\vgg16.py	/^from keras.optimizers import SGD, RMSprop, Adam$/;"	kind:namespace	line:16
+SGD	../deeplearning1\nbs\vgg16bn.py	/^from keras.optimizers import SGD, Adam$/;"	kind:namespace	line:16
+SUBMIT	../deeplearning1\nbs\lesson2.1.py	/^SUBMIT = np.stack([IDS, IS_DOG], axis=1)$/;"	kind:variable	line:256
+SUBMIT	../deeplearning1\nbs\lesson2.2.py	/^SUBMIT = np.stack([IDS, IS_DOG], axis=1)$/;"	kind:variable	line:285
+SUBMIT	../deeplearning1\nbs\lesson2.3.py	/^SUBMIT = np.stack([IDS, IS_DOG], axis=1)$/;"	kind:variable	line:281
+SUBMIT	../deeplearning1\nbs\lesson2.4.py	/^SUBMIT = np.stack([IDS, IS_DOG], axis=1)$/;"	kind:variable	line:274
+SUBMIT	../deeplearning1\nbs\lesson2.5.py	/^SUBMIT = np.stack([IDS, IS_DOG], axis=1)$/;"	kind:variable	line:299
+SUBMIT	../deeplearning1\nbs\lesson2.py	/^SUBMIT = np.stack([IDS, IS_DOG], axis=1)$/;"	kind:variable	line:205
+Sequential	../deeplearning1\nbs\lesson2.1.py	/^from keras.models import Sequential$/;"	kind:namespace	line:48
+Sequential	../deeplearning1\nbs\lesson2.2.py	/^from keras.models import Sequential$/;"	kind:namespace	line:52
+Sequential	../deeplearning1\nbs\lesson2.3.py	/^from keras.models import Sequential$/;"	kind:namespace	line:56
+Sequential	../deeplearning1\nbs\lesson2.4.py	/^from keras.models import Sequential$/;"	kind:namespace	line:48
+Sequential	../deeplearning1\nbs\lesson2.5.py	/^from keras.models import Sequential$/;"	kind:namespace	line:48
+Sequential	../deeplearning1\nbs\lesson2.py	/^from keras.models import Sequential$/;"	kind:namespace	line:38
+Sequential	../deeplearning1\nbs\lesson3.0.py	/^from keras.models import Sequential$/;"	kind:namespace	line:54
+Sequential	../deeplearning1\nbs\lesson3.1.py	/^from keras.models import Sequential$/;"	kind:namespace	line:55
+Sequential	../deeplearning1\nbs\resnet50.py	/^from keras.models import Sequential, Model$/;"	kind:namespace	line:11
+Sequential	../deeplearning1\nbs\utils.py	/^from keras.models import Sequential, Model$/;"	kind:namespace	line:38
+Sequential	../deeplearning1\nbs\vgg16.py	/^from keras.models import Sequential$/;"	kind:namespace	line:12
+Sequential	../deeplearning1\nbs\vgg16bn.py	/^from keras.models import Sequential$/;"	kind:namespace	line:12
+SimpleRNN	../deeplearning1\nbs\utils.py	/^from keras.layers import TimeDistributed, Activation, SimpleRNN, GRU$/;"	kind:namespace	line:40
+T	../deeplearning1\nbs\theano-test-gpu.py	/^import theano.tensor as T$/;"	kind:namespace	line:2
+T	../deeplearning1\nbs\utils.py	/^from theano import shared, tensor as T$/;"	kind:namespace	line:29
+TEST_BATCHES	../deeplearning1\nbs\lesson2.1.py	/^TEST_BATCHES = utils.get_batches(TEST_PATH, shuffle=False, batch_size=BATCH_SIZE)$/;"	kind:variable	line:235
+TEST_BATCHES	../deeplearning1\nbs\lesson2.2.py	/^TEST_BATCHES = utils.get_batches(TEST_PATH, shuffle=False, batch_size=BATCH_SIZE)$/;"	kind:variable	line:264
+TEST_BATCHES	../deeplearning1\nbs\lesson2.3.py	/^TEST_BATCHES = utils.get_batches(TEST_PATH, shuffle=False, batch_size=BATCH_SIZE)$/;"	kind:variable	line:260
+TEST_BATCHES	../deeplearning1\nbs\lesson2.4.py	/^TEST_BATCHES = utils.get_batches(TEST_PATH, shuffle=False, batch_size=BATCH_SIZE)$/;"	kind:variable	line:253
+TEST_BATCHES	../deeplearning1\nbs\lesson2.5.py	/^TEST_BATCHES = utils.get_batches(TEST_PATH, shuffle=False, batch_size=BATCH_SIZE)$/;"	kind:variable	line:278
+TEST_BATCHES	../deeplearning1\nbs\lesson2.py	/^TEST_BATCHES = utils.get_batches(TEST_PATH, shuffle=False, batch_size=BATCH_SIZE)$/;"	kind:variable	line:184
+TEST_FILENAMES	../deeplearning1\nbs\lesson2.1.py	/^TEST_FILENAMES = TEST_BATCHES.filenames$/;"	kind:variable	line:237
+TEST_FILENAMES	../deeplearning1\nbs\lesson2.2.py	/^TEST_FILENAMES = TEST_BATCHES.filenames$/;"	kind:variable	line:266
+TEST_FILENAMES	../deeplearning1\nbs\lesson2.3.py	/^TEST_FILENAMES = TEST_BATCHES.filenames$/;"	kind:variable	line:262
+TEST_FILENAMES	../deeplearning1\nbs\lesson2.4.py	/^TEST_FILENAMES = TEST_BATCHES.filenames$/;"	kind:variable	line:255
+TEST_FILENAMES	../deeplearning1\nbs\lesson2.5.py	/^TEST_FILENAMES = TEST_BATCHES.filenames$/;"	kind:variable	line:280
+TEST_FILENAMES	../deeplearning1\nbs\lesson2.py	/^TEST_FILENAMES = TEST_BATCHES.filenames$/;"	kind:variable	line:186
+TEST_FOLDER	../deeplearning1\nbs\lesson2-cli.py	/^TEST_FOLDER = 'test'$/;"	kind:variable	line:42
+TEST_LOSS	../deeplearning1\nbs\lesson2.1.py	/^TEST_LOSS = vgg.model.evaluate(VALID_ARRAY, VALID_LABELS)$/;"	kind:variable	line:224
+TEST_LOSS	../deeplearning1\nbs\lesson2.2.py	/^TEST_LOSS = vgg.model.evaluate(VALID_ARRAY, VALID_LABELS)$/;"	kind:variable	line:224
+TEST_LOSS	../deeplearning1\nbs\lesson2.2.py	/^TEST_LOSS = vgg.model.evaluate(VALID_ARRAY, VALID_LABELS)$/;"	kind:variable	line:253
+TEST_LOSS	../deeplearning1\nbs\lesson2.3.py	/^TEST_LOSS = vgg.model.evaluate(VALID_ARRAY, VALID_LABELS)$/;"	kind:variable	line:223
+TEST_LOSS	../deeplearning1\nbs\lesson2.3.py	/^TEST_LOSS = vgg.model.evaluate(VALID_ARRAY, VALID_LABELS)$/;"	kind:variable	line:249
+TEST_LOSS	../deeplearning1\nbs\lesson2.4.py	/^TEST_LOSS = vgg.model.evaluate(VALID_ARRAY, VALID_LABELS)$/;"	kind:variable	line:216
+TEST_LOSS	../deeplearning1\nbs\lesson2.4.py	/^TEST_LOSS = vgg.model.evaluate(VALID_ARRAY, VALID_LABELS)$/;"	kind:variable	line:242
+TEST_LOSS	../deeplearning1\nbs\lesson2.5.py	/^TEST_LOSS = vgg.model.evaluate(VALID_ARRAY, VALID_LABELS)$/;"	kind:variable	line:224
+TEST_ONLY	../deeplearning1\data_utils\dogscats-redux\split_training_data\split_training_data.py	/^TEST_ONLY = False$/;"	kind:variable	line:47
+TEST_ONLY	../deeplearning1\nbs\lesson2-cli.py	/^TEST_ONLY = False$/;"	kind:variable	line:46
+TEST_PATH	../deeplearning1\nbs\lesson2.1.py	/^TEST_PATH = os.path.join(INPUT_PATH, 'test')$/;"	kind:variable	line:82
+TEST_PATH	../deeplearning1\nbs\lesson2.2.py	/^TEST_PATH = os.path.join(INPUT_PATH, 'test')$/;"	kind:variable	line:136
+TEST_PATH	../deeplearning1\nbs\lesson2.3.py	/^TEST_PATH = os.path.join(INPUT_PATH, 'test')$/;"	kind:variable	line:135
+TEST_PATH	../deeplearning1\nbs\lesson2.4.py	/^TEST_PATH = os.path.join(INPUT_PATH, 'test')$/;"	kind:variable	line:128
+TEST_PATH	../deeplearning1\nbs\lesson2.5.py	/^TEST_PATH = os.path.join(INPUT_PATH, 'test')$/;"	kind:variable	line:128
+TEST_PATH	../deeplearning1\nbs\lesson2.py	/^TEST_PATH = os.path.join(INPUT_PATH, 'test')$/;"	kind:variable	line:62
+TEST_PATH	../deeplearning1\nbs\lesson3.0.py	/^TEST_PATH = None$/;"	kind:variable	line:76
+TEST_PATH	../deeplearning1\nbs\lesson3.1.py	/^TEST_PATH = None$/;"	kind:variable	line:77
+TEST_PREDS	../deeplearning1\nbs\lesson2.1.py	/^TEST_PREDS = vgg.model.predict_generator(TEST_BATCHES, TEST_BATCHES.nb_sample)$/;"	kind:variable	line:236
+TEST_PREDS	../deeplearning1\nbs\lesson2.2.py	/^TEST_PREDS = vgg.model.predict_generator(TEST_BATCHES, TEST_BATCHES.nb_sample)$/;"	kind:variable	line:265
+TEST_PREDS	../deeplearning1\nbs\lesson2.3.py	/^TEST_PREDS = vgg.model.predict_generator(TEST_BATCHES, TEST_BATCHES.nb_sample)$/;"	kind:variable	line:261
+TEST_PREDS	../deeplearning1\nbs\lesson2.4.py	/^TEST_PREDS = vgg.model.predict_generator(TEST_BATCHES, TEST_BATCHES.nb_sample)$/;"	kind:variable	line:254
+TEST_PREDS	../deeplearning1\nbs\lesson2.5.py	/^TEST_PREDS = vgg.model.predict_generator(TEST_BATCHES, TEST_BATCHES.nb_sample)$/;"	kind:variable	line:279
+TEST_PREDS	../deeplearning1\nbs\lesson2.py	/^TEST_PREDS = vgg.model.predict_generator(TEST_BATCHES, TEST_BATCHES.nb_sample)$/;"	kind:variable	line:185
+TRAIN_ARRAY	../deeplearning1\nbs\lesson2.1.py	/^TRAIN_ARRAY = utils.get_data(TRAIN_PATH)$/;"	kind:variable	line:136
+TRAIN_ARRAY	../deeplearning1\nbs\lesson2.2.py	/^TRAIN_ARRAY = utils.get_data(TRAIN_PATH)$/;"	kind:variable	line:163
+TRAIN_ARRAY	../deeplearning1\nbs\lesson2.3.py	/^TRAIN_ARRAY = utils.get_data(TRAIN_PATH)$/;"	kind:variable	line:162
+TRAIN_ARRAY	../deeplearning1\nbs\lesson2.4.py	/^TRAIN_ARRAY = utils.get_data(TRAIN_PATH)$/;"	kind:variable	line:155
+TRAIN_ARRAY	../deeplearning1\nbs\lesson2.5.py	/^TRAIN_ARRAY = utils.get_data(TRAIN_PATH)$/;"	kind:variable	line:155
+TRAIN_ARRAY	../deeplearning1\nbs\lesson2.py	/^TRAIN_ARRAY = utils.get_data(TRAIN_PATH)$/;"	kind:variable	line:108
+TRAIN_ARRAY	../deeplearning1\nbs\lesson3.1.py	/^TRAIN_ARRAY = None$/;"	kind:variable	line:85
+TRAIN_BATCHES	../deeplearning1\nbs\lesson2.1.py	/^TRAIN_BATCHES = gen.flow(TRAIN_ARRAY, TRAIN_LABELS,$/;"	kind:variable	line:175
+TRAIN_BATCHES	../deeplearning1\nbs\lesson2.1.py	/^TRAIN_BATCHES = utils.get_batches(TRAIN_PATH, shuffle=False, batch_size=1)$/;"	kind:variable	line:133
+TRAIN_BATCHES	../deeplearning1\nbs\lesson2.2.py	/^TRAIN_BATCHES = gen.flow(TRAIN_ARRAY, TRAIN_LABELS,$/;"	kind:variable	line:200
+TRAIN_BATCHES	../deeplearning1\nbs\lesson2.2.py	/^TRAIN_BATCHES = utils.get_batches(TRAIN_PATH, shuffle=False, batch_size=1)$/;"	kind:variable	line:160
+TRAIN_BATCHES	../deeplearning1\nbs\lesson2.3.py	/^TRAIN_BATCHES = gen.flow(TRAIN_ARRAY, TRAIN_LABELS,$/;"	kind:variable	line:199
+TRAIN_BATCHES	../deeplearning1\nbs\lesson2.3.py	/^TRAIN_BATCHES = utils.get_batches(TRAIN_PATH, shuffle=False, batch_size=1)$/;"	kind:variable	line:159
+TRAIN_BATCHES	../deeplearning1\nbs\lesson2.4.py	/^TRAIN_BATCHES = gen.flow(TRAIN_ARRAY, TRAIN_LABELS,$/;"	kind:variable	line:192
+TRAIN_BATCHES	../deeplearning1\nbs\lesson2.4.py	/^TRAIN_BATCHES = utils.get_batches(TRAIN_PATH, shuffle=False, batch_size=1)$/;"	kind:variable	line:152
+TRAIN_BATCHES	../deeplearning1\nbs\lesson2.5.py	/^TRAIN_BATCHES = gen.flow(TRAIN_ARRAY, TRAIN_LABELS,$/;"	kind:variable	line:192
+TRAIN_BATCHES	../deeplearning1\nbs\lesson2.5.py	/^TRAIN_BATCHES = utils.get_batches(TRAIN_PATH, shuffle=False, batch_size=1)$/;"	kind:variable	line:152
+TRAIN_BATCHES	../deeplearning1\nbs\lesson2.py	/^TRAIN_BATCHES = gen.flow(TRAIN_ARRAY, TRAIN_LABELS,$/;"	kind:variable	line:152
+TRAIN_BATCHES	../deeplearning1\nbs\lesson2.py	/^TRAIN_BATCHES = utils.get_batches(TRAIN_PATH, shuffle=False, batch_size=1)$/;"	kind:variable	line:105
+TRAIN_BATCHES	../deeplearning1\nbs\lesson3.1.py	/^TRAIN_BATCHES = None$/;"	kind:variable	line:84
+TRAIN_CLASSES	../deeplearning1\nbs\lesson2.1.py	/^TRAIN_CLASSES = TRAIN_BATCHES.classes$/;"	kind:variable	line:160
+TRAIN_CLASSES	../deeplearning1\nbs\lesson2.2.py	/^TRAIN_CLASSES = TRAIN_BATCHES.classes$/;"	kind:variable	line:185
+TRAIN_CLASSES	../deeplearning1\nbs\lesson2.3.py	/^TRAIN_CLASSES = TRAIN_BATCHES.classes$/;"	kind:variable	line:184
+TRAIN_CLASSES	../deeplearning1\nbs\lesson2.4.py	/^TRAIN_CLASSES = TRAIN_BATCHES.classes$/;"	kind:variable	line:177
+TRAIN_CLASSES	../deeplearning1\nbs\lesson2.5.py	/^TRAIN_CLASSES = TRAIN_BATCHES.classes$/;"	kind:variable	line:177
+TRAIN_CLASSES	../deeplearning1\nbs\lesson2.py	/^TRAIN_CLASSES = TRAIN_BATCHES.classes$/;"	kind:variable	line:136
+TRAIN_DATA	../deeplearning1\nbs\lesson2.1.py	/^TRAIN_DATA = os.path.join(MODEL_PATH, 'train_data.bc')$/;"	kind:variable	line:141
+TRAIN_DATA	../deeplearning1\nbs\lesson2.py	/^TRAIN_DATA = os.path.join(MODEL_PATH, 'train_data.bc')$/;"	kind:variable	line:113
+TRAIN_FOLDER	../deeplearning1\data_utils\dogscats-redux\split_training_data\split_training_data.py	/^TRAIN_FOLDER = 'train'$/;"	kind:variable	line:44
+TRAIN_FOLDER	../deeplearning1\nbs\lesson2-cli.py	/^TRAIN_FOLDER = 'train'$/;"	kind:variable	line:40
+TRAIN_LABELS	../deeplearning1\nbs\lesson2.1.py	/^TRAIN_LABELS = onehot(TRAIN_CLASSES)$/;"	kind:variable	line:161
+TRAIN_LABELS	../deeplearning1\nbs\lesson2.2.py	/^TRAIN_LABELS = onehot(TRAIN_CLASSES)$/;"	kind:variable	line:186
+TRAIN_LABELS	../deeplearning1\nbs\lesson2.3.py	/^TRAIN_LABELS = onehot(TRAIN_CLASSES)$/;"	kind:variable	line:185
+TRAIN_LABELS	../deeplearning1\nbs\lesson2.4.py	/^TRAIN_LABELS = onehot(TRAIN_CLASSES)$/;"	kind:variable	line:178
+TRAIN_LABELS	../deeplearning1\nbs\lesson2.5.py	/^TRAIN_LABELS = onehot(TRAIN_CLASSES)$/;"	kind:variable	line:178
+TRAIN_LABELS	../deeplearning1\nbs\lesson2.py	/^TRAIN_LABELS = onehot(TRAIN_CLASSES)$/;"	kind:variable	line:137
+TRAIN_PATH	../deeplearning1\nbs\lesson2.1.py	/^TRAIN_PATH = os.path.join(INPUT_PATH, 'train')$/;"	kind:variable	line:76
+TRAIN_PATH	../deeplearning1\nbs\lesson2.2.py	/^TRAIN_PATH = os.path.join(INPUT_PATH, 'train')$/;"	kind:variable	line:130
+TRAIN_PATH	../deeplearning1\nbs\lesson2.3.py	/^TRAIN_PATH = os.path.join(INPUT_PATH, 'train')$/;"	kind:variable	line:129
+TRAIN_PATH	../deeplearning1\nbs\lesson2.4.py	/^TRAIN_PATH = os.path.join(INPUT_PATH, 'train')$/;"	kind:variable	line:122
+TRAIN_PATH	../deeplearning1\nbs\lesson2.5.py	/^TRAIN_PATH = os.path.join(INPUT_PATH, 'train')$/;"	kind:variable	line:122
+TRAIN_PATH	../deeplearning1\nbs\lesson2.py	/^TRAIN_PATH = os.path.join(INPUT_PATH, 'train')$/;"	kind:variable	line:56
+TRAIN_PATH	../deeplearning1\nbs\lesson3.0.py	/^TRAIN_PATH = None$/;"	kind:variable	line:74
+TRAIN_PATH	../deeplearning1\nbs\lesson3.1.py	/^TRAIN_PATH = None$/;"	kind:variable	line:75
+TSNE	../deeplearning1\nbs\utils.py	/^from sklearn.manifold import TSNE$/;"	kind:namespace	line:24
+TimeDistributed	../deeplearning1\nbs\utils.py	/^from keras.layers import TimeDistributed, Activation, SimpleRNN, GRU$/;"	kind:namespace	line:40
+Tokenizer	../deeplearning1\nbs\utils.py	/^from keras.preprocessing.text import Tokenizer$/;"	kind:namespace	line:49
+USE_SAMPLE_DATA	../deeplearning1\nbs\lesson2.2.py	/^USE_SAMPLE_DATA = False$/;"	kind:variable	line:79
+USE_SAMPLE_DATA	../deeplearning1\nbs\lesson2.3.py	/^USE_SAMPLE_DATA = False$/;"	kind:variable	line:83
+USE_SAMPLE_DATA	../deeplearning1\nbs\lesson2.4.py	/^USE_SAMPLE_DATA = False$/;"	kind:variable	line:75
+USE_SAMPLE_DATA	../deeplearning1\nbs\lesson2.5.py	/^USE_SAMPLE_DATA = True$/;"	kind:variable	line:74
+VALID_ARRAY	../deeplearning1\nbs\lesson2.1.py	/^VALID_ARRAY = utils.get_data(VALID_PATH)$/;"	kind:variable	line:149
+VALID_ARRAY	../deeplearning1\nbs\lesson2.2.py	/^VALID_ARRAY = utils.get_data(VALID_PATH)$/;"	kind:variable	line:175
+VALID_ARRAY	../deeplearning1\nbs\lesson2.3.py	/^VALID_ARRAY = utils.get_data(VALID_PATH)$/;"	kind:variable	line:174
+VALID_ARRAY	../deeplearning1\nbs\lesson2.4.py	/^VALID_ARRAY = utils.get_data(VALID_PATH)$/;"	kind:variable	line:167
+VALID_ARRAY	../deeplearning1\nbs\lesson2.5.py	/^VALID_ARRAY = utils.get_data(VALID_PATH)$/;"	kind:variable	line:167
+VALID_ARRAY	../deeplearning1\nbs\lesson2.py	/^VALID_ARRAY = utils.get_data(VALID_PATH)$/;"	kind:variable	line:121
+VALID_BATCHES	../deeplearning1\nbs\lesson2.1.py	/^VALID_BATCHES = gen.flow(VALID_ARRAY, VALID_LABELS,$/;"	kind:variable	line:177
+VALID_BATCHES	../deeplearning1\nbs\lesson2.1.py	/^VALID_BATCHES = utils.get_batches(VALID_PATH, shuffle=False, batch_size=1)$/;"	kind:variable	line:146
+VALID_BATCHES	../deeplearning1\nbs\lesson2.2.py	/^VALID_BATCHES = gen.flow(VALID_ARRAY, VALID_LABELS,$/;"	kind:variable	line:202
+VALID_BATCHES	../deeplearning1\nbs\lesson2.2.py	/^VALID_BATCHES = utils.get_batches(VALID_PATH, shuffle=False, batch_size=1)$/;"	kind:variable	line:172
+VALID_BATCHES	../deeplearning1\nbs\lesson2.3.py	/^VALID_BATCHES = gen.flow(VALID_ARRAY, VALID_LABELS,$/;"	kind:variable	line:201
+VALID_BATCHES	../deeplearning1\nbs\lesson2.3.py	/^VALID_BATCHES = utils.get_batches(VALID_PATH, shuffle=False, batch_size=1)$/;"	kind:variable	line:171
+VALID_BATCHES	../deeplearning1\nbs\lesson2.4.py	/^VALID_BATCHES = gen.flow(VALID_ARRAY, VALID_LABELS,$/;"	kind:variable	line:194
+VALID_BATCHES	../deeplearning1\nbs\lesson2.4.py	/^VALID_BATCHES = utils.get_batches(VALID_PATH, shuffle=False, batch_size=1)$/;"	kind:variable	line:164
+VALID_BATCHES	../deeplearning1\nbs\lesson2.5.py	/^VALID_BATCHES = gen.flow(VALID_ARRAY, VALID_LABELS,$/;"	kind:variable	line:194
+VALID_BATCHES	../deeplearning1\nbs\lesson2.5.py	/^VALID_BATCHES = utils.get_batches(VALID_PATH, shuffle=False, batch_size=1)$/;"	kind:variable	line:164
+VALID_BATCHES	../deeplearning1\nbs\lesson2.py	/^VALID_BATCHES = gen.flow(VALID_ARRAY, VALID_LABELS,$/;"	kind:variable	line:154
+VALID_BATCHES	../deeplearning1\nbs\lesson2.py	/^VALID_BATCHES = utils.get_batches(VALID_PATH, shuffle=False, batch_size=1)$/;"	kind:variable	line:118
+VALID_CLASSES	../deeplearning1\nbs\lesson2.1.py	/^VALID_CLASSES = VALID_BATCHES.classes$/;"	kind:variable	line:165
+VALID_CLASSES	../deeplearning1\nbs\lesson2.2.py	/^VALID_CLASSES = VALID_BATCHES.classes$/;"	kind:variable	line:190
+VALID_CLASSES	../deeplearning1\nbs\lesson2.3.py	/^VALID_CLASSES = VALID_BATCHES.classes$/;"	kind:variable	line:189
+VALID_CLASSES	../deeplearning1\nbs\lesson2.4.py	/^VALID_CLASSES = VALID_BATCHES.classes$/;"	kind:variable	line:182
+VALID_CLASSES	../deeplearning1\nbs\lesson2.5.py	/^VALID_CLASSES = VALID_BATCHES.classes$/;"	kind:variable	line:182
+VALID_CLASSES	../deeplearning1\nbs\lesson2.py	/^VALID_CLASSES = VALID_BATCHES.classes$/;"	kind:variable	line:141
+VALID_DATA	../deeplearning1\nbs\lesson2.1.py	/^VALID_DATA = os.path.join(MODEL_PATH, 'valid_data.bc')$/;"	kind:variable	line:154
+VALID_DATA	../deeplearning1\nbs\lesson2.py	/^VALID_DATA = os.path.join(MODEL_PATH, 'valid_data.bc')$/;"	kind:variable	line:126
+VALID_FOLDER	../deeplearning1\data_utils\dogscats-redux\split_training_data\split_training_data.py	/^VALID_FOLDER = 'valid'$/;"	kind:variable	line:45
+VALID_FOLDER	../deeplearning1\nbs\lesson2-cli.py	/^VALID_FOLDER = 'valid'$/;"	kind:variable	line:41
+VALID_LABELS	../deeplearning1\nbs\lesson2.1.py	/^VALID_LABELS = onehot(VALID_CLASSES)$/;"	kind:variable	line:166
+VALID_LABELS	../deeplearning1\nbs\lesson2.2.py	/^VALID_LABELS = onehot(VALID_CLASSES)$/;"	kind:variable	line:191
+VALID_LABELS	../deeplearning1\nbs\lesson2.3.py	/^VALID_LABELS = onehot(VALID_CLASSES)$/;"	kind:variable	line:190
+VALID_LABELS	../deeplearning1\nbs\lesson2.4.py	/^VALID_LABELS = onehot(VALID_CLASSES)$/;"	kind:variable	line:183
+VALID_LABELS	../deeplearning1\nbs\lesson2.5.py	/^VALID_LABELS = onehot(VALID_CLASSES)$/;"	kind:variable	line:183
+VALID_LABELS	../deeplearning1\nbs\lesson2.py	/^VALID_LABELS = onehot(VALID_CLASSES)$/;"	kind:variable	line:142
+VALID_PATH	../deeplearning1\nbs\lesson2.1.py	/^VALID_PATH = os.path.join(INPUT_PATH, 'valid')$/;"	kind:variable	line:79
+VALID_PATH	../deeplearning1\nbs\lesson2.2.py	/^VALID_PATH = os.path.join(INPUT_PATH, 'valid')$/;"	kind:variable	line:133
+VALID_PATH	../deeplearning1\nbs\lesson2.3.py	/^VALID_PATH = os.path.join(INPUT_PATH, 'valid')$/;"	kind:variable	line:132
+VALID_PATH	../deeplearning1\nbs\lesson2.4.py	/^VALID_PATH = os.path.join(INPUT_PATH, 'valid')$/;"	kind:variable	line:125
+VALID_PATH	../deeplearning1\nbs\lesson2.5.py	/^VALID_PATH = os.path.join(INPUT_PATH, 'valid')$/;"	kind:variable	line:125
+VALID_PATH	../deeplearning1\nbs\lesson2.py	/^VALID_PATH = os.path.join(INPUT_PATH, 'valid')$/;"	kind:variable	line:59
+VALID_PATH	../deeplearning1\nbs\lesson3.0.py	/^VALID_PATH = None$/;"	kind:variable	line:75
+VALID_PATH	../deeplearning1\nbs\lesson3.1.py	/^VALID_PATH = None$/;"	kind:variable	line:76
+Vgg16	../deeplearning1\nbs\lesson1.py	/^from vgg16 import Vgg16$/;"	kind:namespace	line:10
+Vgg16	../deeplearning1\nbs\lesson2.1.py	/^from vgg16 import Vgg16$/;"	kind:namespace	line:33
+Vgg16	../deeplearning1\nbs\lesson2.2.py	/^from vgg16 import Vgg16$/;"	kind:namespace	line:37
+Vgg16	../deeplearning1\nbs\lesson2.3.py	/^from vgg16 import Vgg16$/;"	kind:namespace	line:41
+Vgg16	../deeplearning1\nbs\lesson2.4.py	/^from vgg16 import Vgg16$/;"	kind:namespace	line:33
+Vgg16	../deeplearning1\nbs\lesson2.5.py	/^from vgg16 import Vgg16$/;"	kind:namespace	line:33
+Vgg16	../deeplearning1\nbs\lesson2.py	/^from vgg16 import Vgg16$/;"	kind:namespace	line:23
+Vgg16	../deeplearning1\nbs\lesson3.0.py	/^from vgg16 import Vgg16$/;"	kind:namespace	line:39
+Vgg16	../deeplearning1\nbs\lesson3.1.py	/^from vgg16 import Vgg16$/;"	kind:namespace	line:40
+Vgg16	../deeplearning1\nbs\vgg16.py	/^class Vgg16():$/;"	kind:class	line:39
+Vgg16BN	../deeplearning1\nbs\vgg16bn.py	/^class Vgg16BN():$/;"	kind:class	line:29
+ZeroPadding2D	../deeplearning1\nbs\lesson2.1.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:51
+ZeroPadding2D	../deeplearning1\nbs\lesson2.2.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:55
+ZeroPadding2D	../deeplearning1\nbs\lesson2.3.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:59
+ZeroPadding2D	../deeplearning1\nbs\lesson2.4.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:51
+ZeroPadding2D	../deeplearning1\nbs\lesson2.5.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:51
+ZeroPadding2D	../deeplearning1\nbs\lesson2.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:41
+ZeroPadding2D	../deeplearning1\nbs\lesson3.0.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:57
+ZeroPadding2D	../deeplearning1\nbs\lesson3.1.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:58
+ZeroPadding2D	../deeplearning1\nbs\resnet50.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D, AveragePooling2D$/;"	kind:namespace	line:16
+ZeroPadding2D	../deeplearning1\nbs\vgg16.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:14
+ZeroPadding2D	../deeplearning1\nbs\vgg16bn.py	/^from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D$/;"	kind:namespace	line:14
+__init__	../deeplearning1\nbs\resnet50.py	/^    def __init__(self, size=(224,224), include_top=True):$/;"	kind:member	line:27
+__init__	../deeplearning1\nbs\utils.py	/^    def __init__(self, iters):$/;"	kind:member	line:238
+__init__	../deeplearning1\nbs\vgg16.py	/^    def __init__(self):$/;"	kind:member	line:45
+__init__	../deeplearning1\nbs\vgg16bn.py	/^    def __init__(self, size=(224,224), include_top=True):$/;"	kind:member	line:33
+__iter__	../deeplearning1\nbs\utils.py	/^    def __iter__(self):$/;"	kind:member	line:249
+activity_l1	../deeplearning1\nbs\utils.py	/^from keras.regularizers import l2, activity_l2, l1, activity_l1$/;"	kind:namespace	line:42
+activity_l2	../deeplearning1\nbs\utils.py	/^from keras.regularizers import l2, activity_l2, l1, activity_l1$/;"	kind:namespace	line:42
+adjust_dropout	../deeplearning1\nbs\utils.py	/^def adjust_dropout(weights, prev_p, new_p):$/;"	kind:function	line:139
+attrgetter	../deeplearning1\nbs\utils.py	/^from operator import itemgetter, attrgetter, methodcaller$/;"	kind:namespace	line:7
+bcolz	../deeplearning1\nbs\lesson2.1.py	/^import bcolz$/;"	kind:namespace	line:35
+bcolz	../deeplearning1\nbs\lesson2.2.py	/^import bcolz$/;"	kind:namespace	line:39
+bcolz	../deeplearning1\nbs\lesson2.3.py	/^import bcolz$/;"	kind:namespace	line:43
+bcolz	../deeplearning1\nbs\lesson2.4.py	/^import bcolz$/;"	kind:namespace	line:35
+bcolz	../deeplearning1\nbs\lesson2.5.py	/^import bcolz$/;"	kind:namespace	line:35
+bcolz	../deeplearning1\nbs\lesson2.py	/^import bcolz$/;"	kind:namespace	line:25
+bcolz	../deeplearning1\nbs\lesson3.0.py	/^import bcolz$/;"	kind:namespace	line:41
+bcolz	../deeplearning1\nbs\lesson3.1.py	/^import bcolz$/;"	kind:namespace	line:42
+bcolz	../deeplearning1\nbs\utils.py	/^import bcolz$/;"	kind:namespace	line:22
+categorical_accuracy	../deeplearning1\nbs\utils.py	/^from keras.metrics import categorical_crossentropy, categorical_accuracy$/;"	kind:namespace	line:46
+categorical_crossentropy	../deeplearning1\nbs\utils.py	/^from keras.metrics import categorical_crossentropy, categorical_accuracy$/;"	kind:namespace	line:46
+ceil	../deeplearning1\nbs\utils.py	/^def ceil(x):$/;"	kind:function	line:76
+chain	../deeplearning1\nbs\utils.py	/^from itertools import chain$/;"	kind:namespace	line:10
+choice	../deeplearning1\nbs\utils.py	/^from numpy.random import random, permutation, randn, normal, uniform, choice$/;"	kind:namespace	line:15
+cli	../deeplearning1\data_utils\dogscats-redux\split_training_data\split_training_data.py	/^def cli(test):$/;"	kind:function	line:57
+cli	../deeplearning1\nbs\lesson2-cli.py	/^def cli(test):$/;"	kind:function	line:58
+click	../deeplearning1\data_utils\dogscats-redux\split_training_data\split_training_data.py	/^import click$/;"	kind:namespace	line:36
+click	../deeplearning1\nbs\debug_click.py	/^import click$/;"	kind:namespace	line:3
+click	../deeplearning1\nbs\lesson2-cli.py	/^import click$/;"	kind:namespace	line:37
+click	../deeplearning1\nbs\lesson3.0.py	/^import click$/;"	kind:namespace	line:36
+click	../deeplearning1\nbs\lesson3.1.py	/^import click$/;"	kind:namespace	line:37
+compile	../deeplearning1\nbs\vgg16.py	/^    def compile(self, lr=0.001):$/;"	kind:member	line:189
+compile	../deeplearning1\nbs\vgg16bn.py	/^    def compile(self, lr=0.001):$/;"	kind:member	line:117
+config	../deeplearning1\nbs\theano-test-gpu.py	/^from theano import function, config, shared, sandbox$/;"	kind:namespace	line:1
+confusion_matrix	../deeplearning1\nbs\lesson2.1.py	/^from sklearn.metrics import confusion_matrix$/;"	kind:namespace	line:39
+confusion_matrix	../deeplearning1\nbs\lesson2.2.py	/^from sklearn.metrics import confusion_matrix$/;"	kind:namespace	line:43
+confusion_matrix	../deeplearning1\nbs\lesson2.3.py	/^from sklearn.metrics import confusion_matrix$/;"	kind:namespace	line:47
+confusion_matrix	../deeplearning1\nbs\lesson2.4.py	/^from sklearn.metrics import confusion_matrix$/;"	kind:namespace	line:39
+confusion_matrix	../deeplearning1\nbs\lesson2.5.py	/^from sklearn.metrics import confusion_matrix$/;"	kind:namespace	line:39
+confusion_matrix	../deeplearning1\nbs\lesson2.py	/^from sklearn.metrics import confusion_matrix$/;"	kind:namespace	line:29
+confusion_matrix	../deeplearning1\nbs\lesson3.0.py	/^from sklearn.metrics import confusion_matrix$/;"	kind:namespace	line:45
+confusion_matrix	../deeplearning1\nbs\lesson3.1.py	/^from sklearn.metrics import confusion_matrix$/;"	kind:namespace	line:46
+confusion_matrix	../deeplearning1\nbs\utils.py	/^from sklearn.metrics import confusion_matrix$/;"	kind:namespace	line:21
+conv2d	../deeplearning1\nbs\utils.py	/^from theano.tensor.nnet import conv2d, nnet$/;"	kind:namespace	line:30
+conv_block	../deeplearning1\nbs\resnet50.py	/^from keras.applications.resnet50 import identity_block, conv_block$/;"	kind:namespace	line:20
+convert_all_kernels_in_model	../deeplearning1\nbs\resnet50.py	/^from keras.utils.layer_utils import convert_all_kernels_in_model$/;"	kind:namespace	line:19
+copyFiles	../deeplearning1\data_utils\dogscats-redux\split_training_data\split_training_data.py	/^def copyFiles(paths, source_folder, dest_folder):$/;"	kind:function	line:259
+copyFiles	../deeplearning1\nbs\lesson2-cli.py	/^def copyFiles(paths, source_folder, dest_folder):$/;"	kind:function	line:293
+copy_layer	../deeplearning1\nbs\utils.py	/^def copy_layer(layer): return layer_from_config(wrap_config(layer))$/;"	kind:function	line:112
+copy_layers	../deeplearning1\nbs\utils.py	/^def copy_layers(layers): return [copy_layer(layer) for layer in layers]$/;"	kind:function	line:115
+copy_model	../deeplearning1\nbs\utils.py	/^def copy_model(m):$/;"	kind:function	line:123
+copy_weights	../deeplearning1\nbs\utils.py	/^def copy_weights(from_layers, to_layers):$/;"	kind:function	line:118
+create	../deeplearning1\nbs\resnet50.py	/^    def create(self, size, include_top):$/;"	kind:member	line:54
+create	../deeplearning1\nbs\vgg16.py	/^    def create(self):$/;"	kind:member	line:117
+create	../deeplearning1\nbs\vgg16bn.py	/^    def create(self, size, include_top):$/;"	kind:member	line:69
+create_model	../deeplearning1\nbs\lesson3.0.py	/^def create_model():$/;"	kind:function	line:185
+create_model	../deeplearning1\nbs\lesson3.1.py	/^def create_model(opt):$/;"	kind:function	line:185
+debug_click.py	../deeplearning1\nbs\debug_click.py	1;"	kind:file	line:1
+division	../deeplearning1\nbs\lesson1.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:4
+division	../deeplearning1\nbs\resnet50.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:1
+division	../deeplearning1\nbs\utils.py	/^from __future__ import division,print_function$/;"	kind:namespace	line:1
+division	../deeplearning1\nbs\vgg16.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:1
+division	../deeplearning1\nbs\vgg16bn.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:1
+do_clip	../deeplearning1\nbs\utils.py	/^def do_clip(arr, mx):$/;"	kind:function	line:93
+eval_model	../deeplearning1\nbs\lesson3.0.py	/^def eval_model(model):$/;"	kind:function	line:219
+eval_model	../deeplearning1\nbs\lesson3.1.py	/^def eval_model(model, valid_array, valid_classes, valid_labels):$/;"	kind:function	line:277
+f	../deeplearning1\nbs\theano-test-gpu.py	/^f = function([], T.exp(x))$/;"	kind:variable	line:11
+filenames	../deeplearning1\nbs\lesson1.py	/^filenames = batches.filenames$/;"	kind:variable	line:52
+filenames	../deeplearning1\nbs\lesson1.py	/^filenames = batches.filenames$/;"	kind:variable	line:67
+finetune	../deeplearning1\nbs\resnet50.py	/^    def finetune(self, batches):$/;"	kind:member	line:98
+finetune	../deeplearning1\nbs\vgg16.py	/^    def finetune(self, batches):$/;"	kind:member	line:169
+finetune	../deeplearning1\nbs\vgg16bn.py	/^    def finetune(self, batches):$/;"	kind:member	line:108
+fit	../deeplearning1\nbs\resnet50.py	/^    def fit(self, batches, val_batches, nb_epoch=1):$/;"	kind:member	line:107
+fit	../deeplearning1\nbs\vgg16.py	/^    def fit(self, batches, val_batches, nb_epoch=1):$/;"	kind:member	line:207
+fit	../deeplearning1\nbs\vgg16bn.py	/^    def fit(self, batches, val_batches, nb_epoch=1):$/;"	kind:member	line:127
+fit_data	../deeplearning1\nbs\vgg16.py	/^    def fit_data(self, trn, labels,  val, val_labels,  nb_epoch=1, batch_size=64):$/;"	kind:member	line:198
+fit_data	../deeplearning1\nbs\vgg16bn.py	/^    def fit_data(self, trn, labels,  val, val_labels,  nb_epoch=1, batch_size=64):$/;"	kind:member	line:122
+fit_model	../deeplearning1\nbs\lesson3.0.py	/^def fit_model(model, opt):$/;"	kind:function	line:200
+fit_model	../deeplearning1\nbs\lesson3.1.py	/^def fit_model(model, train_batches, valid_batches):$/;"	kind:function	line:261
+floor	../deeplearning1\nbs\utils.py	/^def floor(x):$/;"	kind:function	line:74
+fnmatch	../deeplearning1\data_utils\dogscats-redux\split_training_data\split_training_data.py	/^import fnmatch$/;"	kind:namespace	line:41
+fnmatch	../deeplearning1\nbs\lesson2-cli.py	/^import fnmatch$/;"	kind:namespace	line:35
+ft	../deeplearning1\nbs\vgg16.py	/^    def ft(self, num):$/;"	kind:member	line:152
+ft	../deeplearning1\nbs\vgg16bn.py	/^    def ft(self, num):$/;"	kind:member	line:101
+function	../deeplearning1\nbs\theano-test-gpu.py	/^from theano import function, config, shared, sandbox$/;"	kind:namespace	line:1
+gen	../deeplearning1\nbs\lesson2.1.py	/^gen = image.ImageDataGenerator()$/;"	kind:variable	line:172
+gen	../deeplearning1\nbs\lesson2.2.py	/^gen = image.ImageDataGenerator()$/;"	kind:variable	line:196
+gen	../deeplearning1\nbs\lesson2.3.py	/^gen = image.ImageDataGenerator()$/;"	kind:variable	line:195
+gen	../deeplearning1\nbs\lesson2.4.py	/^gen = image.ImageDataGenerator()$/;"	kind:variable	line:188
+gen	../deeplearning1\nbs\lesson2.5.py	/^gen = image.ImageDataGenerator()$/;"	kind:variable	line:188
+gen	../deeplearning1\nbs\lesson2.py	/^gen = image.ImageDataGenerator()$/;"	kind:variable	line:149
+getFilePaths	../deeplearning1\data_utils\dogscats-redux\split_training_data\split_training_data.py	/^def getFilePaths(folder_path, file_match=None):$/;"	kind:function	line:178
+getFilePaths	../deeplearning1\nbs\lesson2-cli.py	/^def getFilePaths(folder_path, file_match=None):$/;"	kind:function	line:210
+get_array	../deeplearning1\nbs\lesson3.1.py	/^def get_array(batches):$/;"	kind:function	line:269
+get_batches	../deeplearning1\nbs\resnet50.py	/^    def get_batches(self, path, gen=image.ImageDataGenerator(),class_mode='categorical', shuffle=True, batch_size=8):$/;"	kind:member	line:93
+get_batches	../deeplearning1\nbs\utils.py	/^def get_batches(dirname, gen=image.ImageDataGenerator(), shuffle=True, batch_size=4, class_mode='categorical',$/;"	kind:function	line:98
+get_batches	../deeplearning1\nbs\vgg16.py	/^    def get_batches(self, path, gen=image.ImageDataGenerator(), shuffle=True, batch_size=8, class_mode='categorical'):$/;"	kind:member	line:142
+get_batches	../deeplearning1\nbs\vgg16bn.py	/^    def get_batches(self, path, gen=image.ImageDataGenerator(), shuffle=True, batch_size=8, class_mode='categorical'):$/;"	kind:member	line:96
+get_batches_and_data	../deeplearning1\nbs\lesson2.2.py	/^def get_batches_and_data(path, target_size=(224, 224)):$/;"	kind:function	line:69
+get_batches_and_data	../deeplearning1\nbs\lesson2.3.py	/^def get_batches_and_data(path, target_size=(224, 224)):$/;"	kind:function	line:73
+get_batches_and_data	../deeplearning1\nbs\lesson2.4.py	/^def get_batches_and_data(path, target_size=(224, 224)):$/;"	kind:function	line:65
+get_batches_and_data	../deeplearning1\nbs\lesson2.5.py	/^def get_batches_and_data(path, target_size=(224, 224)):$/;"	kind:function	line:65
+get_classes	../deeplearning1\nbs\resnet50.py	/^    def get_classes(self):$/;"	kind:member	line:34
+get_classes	../deeplearning1\nbs\utils.py	/^def get_classes(path):$/;"	kind:function	line:222
+get_classes	../deeplearning1\nbs\vgg16.py	/^    def get_classes(self):$/;"	kind:member	line:51
+get_classes	../deeplearning1\nbs\vgg16bn.py	/^    def get_classes(self):$/;"	kind:member	line:39
+get_data	../deeplearning1\nbs\utils.py	/^def get_data(path, target_size=(224,224)):$/;"	kind:function	line:144
+get_fc_model_no_dropout	../deeplearning1\nbs\lesson3.1.py	/^def get_fc_model_no_dropout(opt, conv_layers, fc_layers):$/;"	kind:function	line:239
+get_file	../deeplearning1\nbs\lesson2.1.py	/^from keras.utils.data_utils import get_file$/;"	kind:namespace	line:47
+get_file	../deeplearning1\nbs\lesson2.2.py	/^from keras.utils.data_utils import get_file$/;"	kind:namespace	line:51
+get_file	../deeplearning1\nbs\lesson2.3.py	/^from keras.utils.data_utils import get_file$/;"	kind:namespace	line:55
+get_file	../deeplearning1\nbs\lesson2.4.py	/^from keras.utils.data_utils import get_file$/;"	kind:namespace	line:47
+get_file	../deeplearning1\nbs\lesson2.5.py	/^from keras.utils.data_utils import get_file$/;"	kind:namespace	line:47
+get_file	../deeplearning1\nbs\lesson2.py	/^from keras.utils.data_utils import get_file$/;"	kind:namespace	line:37
+get_file	../deeplearning1\nbs\lesson3.0.py	/^from keras.utils.data_utils import get_file$/;"	kind:namespace	line:53
+get_file	../deeplearning1\nbs\lesson3.1.py	/^from keras.utils.data_utils import get_file$/;"	kind:namespace	line:54
+get_file	../deeplearning1\nbs\resnet50.py	/^from keras.utils.data_utils import get_file$/;"	kind:namespace	line:18
+get_file	../deeplearning1\nbs\utils.py	/^from keras.utils.data_utils import get_file$/;"	kind:namespace	line:35
+get_file	../deeplearning1\nbs\vgg16.py	/^from keras.utils.data_utils import get_file$/;"	kind:namespace	line:11
+get_file	../deeplearning1\nbs\vgg16bn.py	/^from keras.utils.data_utils import get_file$/;"	kind:namespace	line:11
+get_true_labels	../deeplearning1\nbs\lesson3.0.py	/^def get_true_labels():$/;"	kind:function	line:153
+get_true_labels	../deeplearning1\nbs\lesson3.1.py	/^def get_true_labels(train_batches, valid_batches):$/;"	kind:function	line:155
+glob	../deeplearning1\nbs\lesson1.py	/^from glob import glob$/;"	kind:namespace	line:7
+glob	../deeplearning1\nbs\resnet50.py	/^from glob import glob$/;"	kind:namespace	line:4
+glob	../deeplearning1\nbs\utils.py	/^from glob import glob$/;"	kind:namespace	line:4
+glob	../deeplearning1\nbs\vgg16.py	/^from glob import glob$/;"	kind:namespace	line:4
+glob	../deeplearning1\nbs\vgg16bn.py	/^from glob import glob$/;"	kind:namespace	line:4
+gray	../deeplearning1\nbs\utils.py	/^def gray(img):$/;"	kind:function	line:58
+identity_block	../deeplearning1\nbs\resnet50.py	/^from keras.applications.resnet50 import identity_block, conv_block$/;"	kind:namespace	line:20
+ids	../deeplearning1\nbs\lesson1.py	/^ids = np.array([int(os.path.splitext(os.path.basename(f))[0]) for f in filenames])$/;"	kind:variable	line:68
+image	../deeplearning1\nbs\lesson2.1.py	/^from keras.preprocessing import image$/;"	kind:namespace	line:53
+image	../deeplearning1\nbs\lesson2.2.py	/^from keras.preprocessing import image$/;"	kind:namespace	line:57
+image	../deeplearning1\nbs\lesson2.3.py	/^from keras.preprocessing import image$/;"	kind:namespace	line:61
+image	../deeplearning1\nbs\lesson2.4.py	/^from keras.preprocessing import image$/;"	kind:namespace	line:53
+image	../deeplearning1\nbs\lesson2.5.py	/^from keras.preprocessing import image$/;"	kind:namespace	line:53
+image	../deeplearning1\nbs\lesson2.py	/^from keras.preprocessing import image$/;"	kind:namespace	line:43
+image	../deeplearning1\nbs\lesson3.0.py	/^from keras.preprocessing import image$/;"	kind:namespace	line:59
+image	../deeplearning1\nbs\lesson3.1.py	/^from keras.preprocessing import image$/;"	kind:namespace	line:60
+image	../deeplearning1\nbs\resnet50.py	/^import keras.preprocessing.image as image$/;"	kind:namespace	line:17
+image	../deeplearning1\nbs\utils.py	/^from keras.preprocessing import image, sequence$/;"	kind:namespace	line:48
+image	../deeplearning1\nbs\vgg16.py	/^from keras.preprocessing import image$/;"	kind:namespace	line:17
+image	../deeplearning1\nbs\vgg16bn.py	/^from keras.preprocessing import image$/;"	kind:namespace	line:17
+imread	../deeplearning1\nbs\utils.py	/^from scipy.ndimage import imread$/;"	kind:namespace	line:20
+insert_layer	../deeplearning1\nbs\utils.py	/^def insert_layer(model, new_layer, index):$/;"	kind:function	line:129
+install_requires	../deeplearning1\data_utils\dogscats-redux\split_training_data\setup.py	/^    install_requires=[$/;"	kind:variable	line:7
+isdog	../deeplearning1\nbs\lesson1.py	/^isdog = isdog.clip(min=0.05, max=0.95)$/;"	kind:variable	line:64
+isdog	../deeplearning1\nbs\lesson1.py	/^isdog = preds[:, 1]$/;"	kind:variable	line:60
+itemgetter	../deeplearning1\nbs\utils.py	/^from operator import itemgetter, attrgetter, methodcaller$/;"	kind:namespace	line:7
+iters	../deeplearning1\nbs\theano-test-gpu.py	/^iters = 1000$/;"	kind:variable	line:7
+itertools	../deeplearning1\nbs\utils.py	/^import itertools$/;"	kind:namespace	line:9
+json	../deeplearning1\nbs\lesson1.py	/^import json$/;"	kind:namespace	line:6
+json	../deeplearning1\nbs\resnet50.py	/^import os, json$/;"	kind:namespace	line:3
+json	../deeplearning1\nbs\utils.py	/^import math, os, json, sys, re$/;"	kind:namespace	line:2
+json	../deeplearning1\nbs\vgg16.py	/^import os, json$/;"	kind:namespace	line:3
+json	../deeplearning1\nbs\vgg16bn.py	/^import os, json$/;"	kind:namespace	line:3
+keras	../deeplearning1\nbs\lesson2.1.py	/^import keras$/;"	kind:namespace	line:45
+keras	../deeplearning1\nbs\lesson2.2.py	/^import keras$/;"	kind:namespace	line:49
+keras	../deeplearning1\nbs\lesson2.3.py	/^import keras$/;"	kind:namespace	line:53
+keras	../deeplearning1\nbs\lesson2.4.py	/^import keras$/;"	kind:namespace	line:45
+keras	../deeplearning1\nbs\lesson2.5.py	/^import keras$/;"	kind:namespace	line:45
+keras	../deeplearning1\nbs\lesson2.py	/^import keras$/;"	kind:namespace	line:35
+keras	../deeplearning1\nbs\lesson3.0.py	/^import keras$/;"	kind:namespace	line:51
+keras	../deeplearning1\nbs\lesson3.1.py	/^import keras$/;"	kind:namespace	line:52
+keras	../deeplearning1\nbs\resnet50.py	/^import keras$/;"	kind:namespace	line:9
+keras	../deeplearning1\nbs\resnet50.py	/^import keras.preprocessing.image as image$/;"	kind:namespace	line:17
+keras	../deeplearning1\nbs\utils.py	/^import keras$/;"	kind:namespace	line:33
+l1	../deeplearning1\nbs\utils.py	/^from keras.regularizers import l2, activity_l2, l1, activity_l1$/;"	kind:namespace	line:42
+l2	../deeplearning1\nbs\utils.py	/^from keras.regularizers import l2, activity_l2, l1, activity_l1$/;"	kind:namespace	line:42
+layer_from_config	../deeplearning1\nbs\utils.py	/^from keras.utils.layer_utils import layer_from_config$/;"	kind:namespace	line:45
+lesson1.py	../deeplearning1\nbs\lesson1.py	1;"	kind:file	line:1
+lesson2-cli.py	../deeplearning1\nbs\lesson2-cli.py	1;"	kind:file	line:1
+lesson2.1.py	../deeplearning1\nbs\lesson2.1.py	1;"	kind:file	line:1
+lesson2.2.py	../deeplearning1\nbs\lesson2.2.py	1;"	kind:file	line:1
+lesson2.3.py	../deeplearning1\nbs\lesson2.3.py	1;"	kind:file	line:1
+lesson2.4.py	../deeplearning1\nbs\lesson2.4.py	1;"	kind:file	line:1
+lesson2.5.py	../deeplearning1\nbs\lesson2.5.py	1;"	kind:file	line:1
+lesson2.py	../deeplearning1\nbs\lesson2.py	1;"	kind:file	line:1
+lesson3.0.py	../deeplearning1\nbs\lesson3.0.py	1;"	kind:file	line:1
+lesson3.1.py	../deeplearning1\nbs\lesson3.1.py	1;"	kind:file	line:1
+load_array	../deeplearning1\nbs\utils.py	/^def load_array(fname):$/;"	kind:function	line:180
+load_data	../deeplearning1\nbs\lesson3.0.py	/^def load_data():$/;"	kind:function	line:121
+load_data	../deeplearning1\nbs\lesson3.1.py	/^def load_data():$/;"	kind:function	line:125
+main	../deeplearning1\nbs\debug_click.py	/^def main(flag):$/;"	kind:function	line:8
+main	../deeplearning1\nbs\lesson3.0.py	/^def main(sample, sample_set, local):$/;"	kind:function	line:268
+main	../deeplearning1\nbs\lesson3.1.py	/^def main(sample, sample_set, local):$/;"	kind:function	line:326
+math	../deeplearning1\data_utils\dogscats-redux\split_training_data\split_training_data.py	/^import math$/;"	kind:namespace	line:38
+math	../deeplearning1\nbs\utils.py	/^import math, os, json, sys, re$/;"	kind:namespace	line:2
+merge	../deeplearning1\nbs\resnet50.py	/^from keras.layers import Input, Activation, merge$/;"	kind:namespace	line:13
+merge	../deeplearning1\nbs\utils.py	/^from keras.layers import Input, Embedding, Reshape, merge, LSTM, Bidirectional$/;"	kind:namespace	line:39
+methodcaller	../deeplearning1\nbs\utils.py	/^from operator import itemgetter, attrgetter, methodcaller$/;"	kind:namespace	line:7
+misc	../deeplearning1\nbs\lesson2.1.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:42
+misc	../deeplearning1\nbs\lesson2.2.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:46
+misc	../deeplearning1\nbs\lesson2.3.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:50
+misc	../deeplearning1\nbs\lesson2.4.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:42
+misc	../deeplearning1\nbs\lesson2.5.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:42
+misc	../deeplearning1\nbs\lesson2.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:32
+misc	../deeplearning1\nbs\lesson3.0.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:48
+misc	../deeplearning1\nbs\lesson3.1.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:49
+misc	../deeplearning1\nbs\resnet50.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:6
+misc	../deeplearning1\nbs\utils.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:18
+misc	../deeplearning1\nbs\vgg16.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:6
+misc	../deeplearning1\nbs\vgg16bn.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:6
+mk_size	../deeplearning1\nbs\utils.py	/^def mk_size(img, r2c):$/;"	kind:function	line:184
+mk_square	../deeplearning1\nbs\utils.py	/^def mk_square(img):$/;"	kind:function	line:199
+moveFiles	../deeplearning1\data_utils\dogscats-redux\split_training_data\split_training_data.py	/^def moveFiles(paths, source_folder, dest_folder):$/;"	kind:function	line:222
+moveFiles	../deeplearning1\nbs\lesson2-cli.py	/^def moveFiles(paths, source_folder, dest_folder):$/;"	kind:function	line:255
+name	../deeplearning1\data_utils\dogscats-redux\split_training_data\setup.py	/^    name='split_training_data.py',$/;"	kind:variable	line:4
+ndimage	../deeplearning1\nbs\lesson2.1.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:42
+ndimage	../deeplearning1\nbs\lesson2.2.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:46
+ndimage	../deeplearning1\nbs\lesson2.3.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:50
+ndimage	../deeplearning1\nbs\lesson2.4.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:42
+ndimage	../deeplearning1\nbs\lesson2.5.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:42
+ndimage	../deeplearning1\nbs\lesson2.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:32
+ndimage	../deeplearning1\nbs\lesson3.0.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:48
+ndimage	../deeplearning1\nbs\lesson3.1.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:49
+ndimage	../deeplearning1\nbs\resnet50.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:6
+ndimage	../deeplearning1\nbs\utils.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:18
+ndimage	../deeplearning1\nbs\vgg16.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:6
+ndimage	../deeplearning1\nbs\vgg16bn.py	/^from scipy import misc, ndimage$/;"	kind:namespace	line:6
+newaxis	../deeplearning1\nbs\utils.py	/^from numpy import newaxis$/;"	kind:namespace	line:16
+next	../deeplearning1\nbs\utils.py	/^    def next(self, *args, **kwargs):$/;"	kind:member	line:252
+nnet	../deeplearning1\nbs\utils.py	/^from theano.tensor.nnet import conv2d, nnet$/;"	kind:namespace	line:30
+normal	../deeplearning1\nbs\utils.py	/^from numpy.random import random, permutation, randn, normal, uniform, choice$/;"	kind:namespace	line:15
+np	../deeplearning1\nbs\lesson1.py	/^import numpy as np$/;"	kind:namespace	line:8
+np	../deeplearning1\nbs\lesson2.1.py	/^import numpy as np$/;"	kind:namespace	line:37
+np	../deeplearning1\nbs\lesson2.2.py	/^import numpy as np$/;"	kind:namespace	line:41
+np	../deeplearning1\nbs\lesson2.3.py	/^import numpy as np$/;"	kind:namespace	line:45
+np	../deeplearning1\nbs\lesson2.4.py	/^import numpy as np$/;"	kind:namespace	line:37
+np	../deeplearning1\nbs\lesson2.5.py	/^import numpy as np$/;"	kind:namespace	line:37
+np	../deeplearning1\nbs\lesson2.py	/^import numpy as np$/;"	kind:namespace	line:27
+np	../deeplearning1\nbs\lesson3.0.py	/^import numpy as np$/;"	kind:namespace	line:43
+np	../deeplearning1\nbs\lesson3.1.py	/^import numpy as np$/;"	kind:namespace	line:44
+np	../deeplearning1\nbs\resnet50.py	/^import numpy as np$/;"	kind:namespace	line:5
+np	../deeplearning1\nbs\utils.py	/^import numpy as np$/;"	kind:namespace	line:5
+np	../deeplearning1\nbs\vgg16.py	/^import numpy as np$/;"	kind:namespace	line:5
+np	../deeplearning1\nbs\vgg16bn.py	/^import numpy as np$/;"	kind:namespace	line:5
+np_utils	../deeplearning1\nbs\utils.py	/^from keras.utils import np_utils$/;"	kind:namespace	line:36
+numpy	../deeplearning1\nbs\theano-test-gpu.py	/^import numpy$/;"	kind:namespace	line:3
+onehot	../deeplearning1\nbs\lesson2.1.py	/^def onehot(x):$/;"	kind:function	line:60
+onehot	../deeplearning1\nbs\lesson2.2.py	/^def onehot(x):$/;"	kind:function	line:64
+onehot	../deeplearning1\nbs\lesson2.3.py	/^def onehot(x):$/;"	kind:function	line:68
+onehot	../deeplearning1\nbs\lesson2.4.py	/^def onehot(x):$/;"	kind:function	line:60
+onehot	../deeplearning1\nbs\lesson2.5.py	/^def onehot(x):$/;"	kind:function	line:60
+onehot	../deeplearning1\nbs\lesson2.py	/^def onehot(x):$/;"	kind:function	line:132
+onehot	../deeplearning1\nbs\lesson3.0.py	/^def onehot(x):$/;"	kind:function	line:64
+onehot	../deeplearning1\nbs\lesson3.1.py	/^def onehot(x):$/;"	kind:function	line:65
+onehot	../deeplearning1\nbs\utils.py	/^def onehot(x):$/;"	kind:function	line:104
+os	../deeplearning1\data_utils\dogscats-redux\split_training_data\split_training_data.py	/^import os$/;"	kind:namespace	line:37
+os	../deeplearning1\nbs\debug_click.py	/^import os$/;"	kind:namespace	line:1
+os	../deeplearning1\nbs\debug_click.py	/^import os.path$/;"	kind:namespace	line:2
+os	../deeplearning1\nbs\lesson1.py	/^import os$/;"	kind:namespace	line:5
+os	../deeplearning1\nbs\lesson2-cli.py	/^import os$/;"	kind:namespace	line:32
+os	../deeplearning1\nbs\lesson2.1.py	/^import os$/;"	kind:namespace	line:29
+os	../deeplearning1\nbs\lesson2.1.py	/^import os.path$/;"	kind:namespace	line:30
+os	../deeplearning1\nbs\lesson2.2.py	/^import os$/;"	kind:namespace	line:33
+os	../deeplearning1\nbs\lesson2.2.py	/^import os.path$/;"	kind:namespace	line:34
+os	../deeplearning1\nbs\lesson2.3.py	/^import os$/;"	kind:namespace	line:37
+os	../deeplearning1\nbs\lesson2.3.py	/^import os.path$/;"	kind:namespace	line:38
+os	../deeplearning1\nbs\lesson2.4.py	/^import os$/;"	kind:namespace	line:29
+os	../deeplearning1\nbs\lesson2.4.py	/^import os.path$/;"	kind:namespace	line:30
+os	../deeplearning1\nbs\lesson2.5.py	/^import os$/;"	kind:namespace	line:29
+os	../deeplearning1\nbs\lesson2.5.py	/^import os.path$/;"	kind:namespace	line:30
+os	../deeplearning1\nbs\lesson2.py	/^import os$/;"	kind:namespace	line:19
+os	../deeplearning1\nbs\lesson2.py	/^import os.path$/;"	kind:namespace	line:20
+os	../deeplearning1\nbs\lesson3.0.py	/^import os$/;"	kind:namespace	line:34
+os	../deeplearning1\nbs\lesson3.0.py	/^import os.path$/;"	kind:namespace	line:35
+os	../deeplearning1\nbs\lesson3.1.py	/^import os$/;"	kind:namespace	line:35
+os	../deeplearning1\nbs\lesson3.1.py	/^import os.path$/;"	kind:namespace	line:36
+os	../deeplearning1\nbs\resnet50.py	/^import os, json$/;"	kind:namespace	line:3
+os	../deeplearning1\nbs\utils.py	/^import math, os, json, sys, re$/;"	kind:namespace	line:2
+os	../deeplearning1\nbs\vgg16.py	/^import os, json$/;"	kind:namespace	line:3
+os	../deeplearning1\nbs\vgg16bn.py	/^import os, json$/;"	kind:namespace	line:3
+partition	../deeplearning1\data_utils\dogscats-redux\split_training_data\split_training_data.py	/^def partition(folder):$/;"	kind:function	line:66
+path	../deeplearning1\nbs\debug_click.py	/^import os.path$/;"	kind:namespace	line:2
+path	../deeplearning1\nbs\lesson2.1.py	/^import os.path$/;"	kind:namespace	line:30
+path	../deeplearning1\nbs\lesson2.2.py	/^import os.path$/;"	kind:namespace	line:34
+path	../deeplearning1\nbs\lesson2.3.py	/^import os.path$/;"	kind:namespace	line:38
+path	../deeplearning1\nbs\lesson2.4.py	/^import os.path$/;"	kind:namespace	line:30
+path	../deeplearning1\nbs\lesson2.5.py	/^import os.path$/;"	kind:namespace	line:30
+path	../deeplearning1\nbs\lesson2.py	/^import os.path$/;"	kind:namespace	line:20
+path	../deeplearning1\nbs\lesson3.0.py	/^import os.path$/;"	kind:namespace	line:35
+path	../deeplearning1\nbs\lesson3.1.py	/^import os.path$/;"	kind:namespace	line:36
+pd	../deeplearning1\nbs\utils.py	/^import pandas as pd$/;"	kind:namespace	line:12
+permutation	../deeplearning1\nbs\lesson2.1.py	/^from numpy.random import random, permutation$/;"	kind:namespace	line:41
+permutation	../deeplearning1\nbs\lesson2.2.py	/^from numpy.random import random, permutation$/;"	kind:namespace	line:45
+permutation	../deeplearning1\nbs\lesson2.3.py	/^from numpy.random import random, permutation$/;"	kind:namespace	line:49
+permutation	../deeplearning1\nbs\lesson2.4.py	/^from numpy.random import random, permutation$/;"	kind:namespace	line:41
+permutation	../deeplearning1\nbs\lesson2.5.py	/^from numpy.random import random, permutation$/;"	kind:namespace	line:41
+permutation	../deeplearning1\nbs\lesson2.py	/^from numpy.random import random, permutation$/;"	kind:namespace	line:31
+permutation	../deeplearning1\nbs\lesson3.0.py	/^from numpy.random import random, permutation$/;"	kind:namespace	line:47
+permutation	../deeplearning1\nbs\lesson3.1.py	/^from numpy.random import random, permutation$/;"	kind:namespace	line:48
+permutation	../deeplearning1\nbs\utils.py	/^from numpy.random import random, permutation, randn, normal, uniform, choice$/;"	kind:namespace	line:15
+pickle	../deeplearning1\nbs\utils.py	/^import cPickle as pickle$/;"	kind:namespace	line:3
+plot	../deeplearning1\nbs\utils.py	/^def plot(img):$/;"	kind:function	line:70
+plot_confusion_matrix	../deeplearning1\nbs\utils.py	/^def plot_confusion_matrix(cm, classes, normalize=False, title='Confusion matrix', cmap=plt.cm.Blues):$/;"	kind:function	line:149
+plots	../deeplearning1\nbs\utils.py	/^def plots(ims, figsize=(12,6), rows=1, interp=False, titles=None):$/;"	kind:function	line:79
+plt	../deeplearning1\nbs\utils.py	/^from matplotlib import pyplot as plt$/;"	kind:namespace	line:6
+pool	../deeplearning1\nbs\utils.py	/^from theano.tensor.signal import pool$/;"	kind:namespace	line:31
+precalculate_conv_output	../deeplearning1\nbs\lesson3.1.py	/^def precalculate_conv_output(model, train_batches, valid_batches):$/;"	kind:function	line:214
+predict	../deeplearning1\nbs\lesson2-cli.py	/^def predict(folder):$/;"	kind:function	line:97
+predict	../deeplearning1\nbs\lesson3.0.py	/^def predict(model):$/;"	kind:function	line:232
+predict	../deeplearning1\nbs\lesson3.1.py	/^def predict(model):$/;"	kind:function	line:290
+predict	../deeplearning1\nbs\resnet50.py	/^    def predict(self, imgs, details=False):$/;"	kind:member	line:41
+predict	../deeplearning1\nbs\vgg16.py	/^    def predict(self, imgs, details=False):$/;"	kind:member	line:62
+predict	../deeplearning1\nbs\vgg16bn.py	/^    def predict(self, imgs, details=False):$/;"	kind:member	line:46
+prepare_generators	../deeplearning1\nbs\lesson3.0.py	/^def prepare_generators():$/;"	kind:function	line:171
+preprocessing	../deeplearning1\nbs\resnet50.py	/^import keras.preprocessing.image as image$/;"	kind:namespace	line:17
+print_function	../deeplearning1\nbs\lesson1.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:4
+print_function	../deeplearning1\nbs\resnet50.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:1
+print_function	../deeplearning1\nbs\utils.py	/^from __future__ import division,print_function$/;"	kind:namespace	line:1
+print_function	../deeplearning1\nbs\vgg16.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:1
+print_function	../deeplearning1\nbs\vgg16bn.py	/^from __future__ import division, print_function$/;"	kind:namespace	line:1
+proc_wgts	../deeplearning1\nbs\lesson3.1.py	/^def proc_wgts(layer):$/;"	kind:function	line:235
+py_modules	../deeplearning1\data_utils\dogscats-redux\split_training_data\setup.py	/^    py_modules=['split_training_data'],$/;"	kind:variable	line:6
+r	../deeplearning1\nbs\theano-test-gpu.py	/^    r = f()$/;"	kind:variable	line:15
+randn	../deeplearning1\nbs\utils.py	/^from numpy.random import random, permutation, randn, normal, uniform, choice$/;"	kind:namespace	line:15
+random	../deeplearning1\data_utils\dogscats-redux\split_training_data\split_training_data.py	/^import random$/;"	kind:namespace	line:39
+random	../deeplearning1\nbs\lesson2-cli.py	/^import random$/;"	kind:namespace	line:33
+random	../deeplearning1\nbs\lesson2.1.py	/^from numpy.random import random, permutation$/;"	kind:namespace	line:41
+random	../deeplearning1\nbs\lesson2.2.py	/^from numpy.random import random, permutation$/;"	kind:namespace	line:45
+random	../deeplearning1\nbs\lesson2.3.py	/^from numpy.random import random, permutation$/;"	kind:namespace	line:49
+random	../deeplearning1\nbs\lesson2.4.py	/^from numpy.random import random, permutation$/;"	kind:namespace	line:41
+random	../deeplearning1\nbs\lesson2.5.py	/^from numpy.random import random, permutation$/;"	kind:namespace	line:41
+random	../deeplearning1\nbs\lesson2.py	/^from numpy.random import random, permutation$/;"	kind:namespace	line:31
+random	../deeplearning1\nbs\lesson3.0.py	/^from numpy.random import random, permutation$/;"	kind:namespace	line:47
+random	../deeplearning1\nbs\lesson3.1.py	/^from numpy.random import random, permutation$/;"	kind:namespace	line:48
+random	../deeplearning1\nbs\utils.py	/^from numpy.random import random, permutation, randn, normal, uniform, choice$/;"	kind:namespace	line:15
+re	../deeplearning1\nbs\utils.py	/^import math, os, json, sys, re$/;"	kind:namespace	line:2
+reset	../deeplearning1\nbs\utils.py	/^    def reset(self):$/;"	kind:member	line:246
+resnet50.py	../deeplearning1\nbs\resnet50.py	1;"	kind:file	line:1
+rng	../deeplearning1\nbs\theano-test-gpu.py	/^rng = numpy.random.RandomState(22)$/;"	kind:variable	line:9
+sample	../deeplearning1\data_utils\dogscats-redux\split_training_data\split_training_data.py	/^def sample(source_folder, dest_folder, percent):$/;"	kind:function	line:128
+sample	../deeplearning1\nbs\lesson2-cli.py	/^def sample(source_folder, dest_folder, percent):$/;"	kind:function	line:161
+sandbox	../deeplearning1\nbs\theano-test-gpu.py	/^from theano import function, config, shared, sandbox$/;"	kind:namespace	line:1
+save_array	../deeplearning1\nbs\utils.py	/^def save_array(fname, arr):$/;"	kind:function	line:175
+scipy	../deeplearning1\nbs\utils.py	/^import scipy$/;"	kind:namespace	line:17
+selectRandomPaths	../deeplearning1\data_utils\dogscats-redux\split_training_data\split_training_data.py	/^def selectRandomPaths(folder_path, percent):$/;"	kind:function	line:166
+selectRandomPaths	../deeplearning1\nbs\lesson2-cli.py	/^def selectRandomPaths(folder_path, percent):$/;"	kind:function	line:198
+selectRandomPercent	../deeplearning1\data_utils\dogscats-redux\split_training_data\split_training_data.py	/^def selectRandomPercent(source_seq, percent):$/;"	kind:function	line:201
+selectRandomPercent	../deeplearning1\nbs\lesson2-cli.py	/^def selectRandomPercent(source_seq, percent):$/;"	kind:function	line:234
+sequence	../deeplearning1\nbs\utils.py	/^from keras.preprocessing import image, sequence$/;"	kind:namespace	line:48
+setup	../deeplearning1\data_utils\dogscats-redux\split_training_data\setup.py	/^from setuptools import setup$/;"	kind:namespace	line:1
+setup.py	../deeplearning1\data_utils\dogscats-redux\split_training_data\setup.py	1;"	kind:file	line:1
+setup_folders	../deeplearning1\nbs\lesson3.0.py	/^def setup_folders():$/;"	kind:function	line:87
+setup_folders	../deeplearning1\nbs\lesson3.1.py	/^def setup_folders():$/;"	kind:function	line:91
+shared	../deeplearning1\nbs\theano-test-gpu.py	/^from theano import function, config, shared, sandbox$/;"	kind:namespace	line:1
+shared	../deeplearning1\nbs\utils.py	/^from theano import shared, tensor as T$/;"	kind:namespace	line:29
+shutil	../deeplearning1\data_utils\dogscats-redux\split_training_data\split_training_data.py	/^import shutil$/;"	kind:namespace	line:40
+shutil	../deeplearning1\nbs\lesson2-cli.py	/^import shutil$/;"	kind:namespace	line:34
+split	../deeplearning1\data_utils\dogscats-redux\split_training_data\split_training_data.py	/^def split(source_folder, dest_folder, percent):$/;"	kind:function	line:96
+split	../deeplearning1\nbs\lesson2-cli.py	/^def split(source_folder, dest_folder, percent):$/;"	kind:function	line:128
+split_at	../deeplearning1\nbs\utils.py	/^def split_at(model, layer_type):$/;"	kind:function	line:230
+split_conv_and_fc_layers	../deeplearning1\nbs\lesson3.1.py	/^def split_conv_and_fc_layers(model):$/;"	kind:function	line:200
+split_training_data.py	../deeplearning1\data_utils\dogscats-redux\split_training_data\split_training_data.py	1;"	kind:file	line:1
+subm	../deeplearning1\nbs\lesson1.py	/^subm = np.stack([ids, isdog], axis=1)$/;"	kind:variable	line:71
+sys	../deeplearning1\nbs\utils.py	/^import math, os, json, sys, re$/;"	kind:namespace	line:2
+t0	../deeplearning1\nbs\theano-test-gpu.py	/^t0 = time.time()$/;"	kind:variable	line:13
+t1	../deeplearning1\nbs\theano-test-gpu.py	/^t1 = time.time()$/;"	kind:variable	line:16
+test	../deeplearning1\nbs\resnet50.py	/^    def test(self, path, batch_size=8):$/;"	kind:member	line:111
+test	../deeplearning1\nbs\vgg16.py	/^    def test(self, path, batch_size=8):$/;"	kind:member	line:216
+test	../deeplearning1\nbs\vgg16bn.py	/^    def test(self, path, batch_size=8):$/;"	kind:member	line:132
+theano	../deeplearning1\nbs\theano-test-gpu.py	/^import theano.tensor as T$/;"	kind:namespace	line:2
+theano	../deeplearning1\nbs\utils.py	/^import theano$/;"	kind:namespace	line:28
+theano-test-gpu.py	../deeplearning1\nbs\theano-test-gpu.py	1;"	kind:file	line:1
+time	../deeplearning1\nbs\theano-test-gpu.py	/^import time$/;"	kind:namespace	line:4
+to_bw	../deeplearning1\nbs\utils.py	/^to_bw = np.array([0.299, 0.587, 0.114])$/;"	kind:variable	line:56
+to_categorical	../deeplearning1\nbs\utils.py	/^from keras.utils.np_utils import to_categorical$/;"	kind:namespace	line:37
+to_plot	../deeplearning1\nbs\utils.py	/^def to_plot(img):$/;"	kind:function	line:64
+train	../deeplearning1\nbs\lesson2-cli.py	/^def train(folder):$/;"	kind:function	line:68
+train_batches	../deeplearning1\nbs\lesson1.py	/^    train_batches = vgg.get_batches(os.path.join(INPUT_PATH, 'train'), batch_size=BATCH_SIZE)$/;"	kind:variable	line:39
+uniform	../deeplearning1\nbs\utils.py	/^from numpy.random import random, permutation, randn, normal, uniform, choice$/;"	kind:namespace	line:15
+utils	../deeplearning1\nbs\lesson1.py	/^import utils$/;"	kind:namespace	line:9
+utils	../deeplearning1\nbs\lesson2.1.py	/^import utils$/;"	kind:namespace	line:32
+utils	../deeplearning1\nbs\lesson2.2.py	/^import utils$/;"	kind:namespace	line:36
+utils	../deeplearning1\nbs\lesson2.3.py	/^import utils$/;"	kind:namespace	line:40
+utils	../deeplearning1\nbs\lesson2.4.py	/^import utils$/;"	kind:namespace	line:32
+utils	../deeplearning1\nbs\lesson2.5.py	/^import utils$/;"	kind:namespace	line:32
+utils	../deeplearning1\nbs\lesson2.py	/^import utils$/;"	kind:namespace	line:22
+utils	../deeplearning1\nbs\lesson3.0.py	/^import utils$/;"	kind:namespace	line:38
+utils	../deeplearning1\nbs\lesson3.1.py	/^import utils$/;"	kind:namespace	line:39
+utils.py	../deeplearning1\nbs\utils.py	1;"	kind:file	line:1
+val_batches	../deeplearning1\nbs\lesson1.py	/^    val_batches = vgg.get_batches(os.path.join(INPUT_PATH, 'valid'), batch_size=BATCH_SIZE * 2)$/;"	kind:variable	line:40
+validateFolder	../deeplearning1\data_utils\dogscats-redux\split_training_data\split_training_data.py	/^def validateFolder(folder):$/;"	kind:function	line:155
+validateFolder	../deeplearning1\nbs\lesson2-cli.py	/^def validateFolder(folder):$/;"	kind:function	line:187
+version	../deeplearning1\data_utils\dogscats-redux\split_training_data\setup.py	/^    version='0.0.2',$/;"	kind:variable	line:5
+vgg	../deeplearning1\nbs\lesson1.py	/^vgg = Vgg16()$/;"	kind:variable	line:32
+vgg	../deeplearning1\nbs\lesson2.1.py	/^vgg = Vgg16()$/;"	kind:variable	line:182
+vgg	../deeplearning1\nbs\lesson2.2.py	/^vgg = Vgg16()$/;"	kind:variable	line:207
+vgg	../deeplearning1\nbs\lesson2.3.py	/^vgg = Vgg16()$/;"	kind:variable	line:206
+vgg	../deeplearning1\nbs\lesson2.4.py	/^vgg = Vgg16()$/;"	kind:variable	line:199
+vgg	../deeplearning1\nbs\lesson2.5.py	/^vgg = Vgg16()$/;"	kind:variable	line:199
+vgg	../deeplearning1\nbs\lesson2.py	/^vgg = Vgg16()$/;"	kind:variable	line:159
+vgg16.py	../deeplearning1\nbs\vgg16.py	1;"	kind:file	line:1
+vgg16bn.py	../deeplearning1\nbs\vgg16bn.py	1;"	kind:file	line:1
+vgg_ft	../deeplearning1\nbs\utils.py	/^def vgg_ft(out_dim):$/;"	kind:function	line:209
+vgg_ft_bn	../deeplearning1\nbs\utils.py	/^def vgg_ft_bn(out_dim):$/;"	kind:function	line:215
+vgg_mean	../deeplearning1\nbs\vgg16.py	/^vgg_mean = np.array([123.68, 116.779, 103.939], dtype=np.float32).reshape((3,1,1))$/;"	kind:variable	line:24
+vgg_mean	../deeplearning1\nbs\vgg16bn.py	/^vgg_mean = np.array([123.68, 116.779, 103.939], dtype=np.float32).reshape((3,1,1))$/;"	kind:variable	line:23
+vgg_preprocess	../deeplearning1\nbs\resnet50.py	/^    def vgg_preprocess(self, x):$/;"	kind:member	line:49
+vgg_preprocess	../deeplearning1\nbs\vgg16.py	/^def vgg_preprocess(x):$/;"	kind:function	line:25
+vgg_preprocess	../deeplearning1\nbs\vgg16bn.py	/^def vgg_preprocess(x):$/;"	kind:function	line:24
+vlen	../deeplearning1\nbs\theano-test-gpu.py	/^vlen = 10 * 30 * 768  # 10 x #cores x # threads per core$/;"	kind:variable	line:6
+weights_file	../deeplearning1\nbs\lesson1.py	/^    weights_file = os.path.join(OUTPUT_PATH, 'ft_%d.h5' % epoch)$/;"	kind:variable	line:47
+wrap_config	../deeplearning1\nbs\utils.py	/^def wrap_config(layer):$/;"	kind:function	line:108
+x	../deeplearning1\nbs\theano-test-gpu.py	/^x = shared(numpy.asarray(rng.rand(vlen), config.floatX))$/;"	kind:variable	line:10
+zoom	../deeplearning1\nbs\lesson2.1.py	/^from scipy.ndimage.interpolation import zoom$/;"	kind:namespace	line:43
+zoom	../deeplearning1\nbs\lesson2.2.py	/^from scipy.ndimage.interpolation import zoom$/;"	kind:namespace	line:47
+zoom	../deeplearning1\nbs\lesson2.3.py	/^from scipy.ndimage.interpolation import zoom$/;"	kind:namespace	line:51
+zoom	../deeplearning1\nbs\lesson2.4.py	/^from scipy.ndimage.interpolation import zoom$/;"	kind:namespace	line:43
+zoom	../deeplearning1\nbs\lesson2.5.py	/^from scipy.ndimage.interpolation import zoom$/;"	kind:namespace	line:43
+zoom	../deeplearning1\nbs\lesson2.py	/^from scipy.ndimage.interpolation import zoom$/;"	kind:namespace	line:33
+zoom	../deeplearning1\nbs\lesson3.0.py	/^from scipy.ndimage.interpolation import zoom$/;"	kind:namespace	line:49
+zoom	../deeplearning1\nbs\lesson3.1.py	/^from scipy.ndimage.interpolation import zoom$/;"	kind:namespace	line:50
+zoom	../deeplearning1\nbs\resnet50.py	/^from scipy.ndimage.interpolation import zoom$/;"	kind:namespace	line:7
+zoom	../deeplearning1\nbs\utils.py	/^from scipy.ndimage.interpolation import zoom$/;"	kind:namespace	line:19
+zoom	../deeplearning1\nbs\vgg16.py	/^from scipy.ndimage.interpolation import zoom$/;"	kind:namespace	line:7
+zoom	../deeplearning1\nbs\vgg16bn.py	/^from scipy.ndimage.interpolation import zoom$/;"	kind:namespace	line:7
