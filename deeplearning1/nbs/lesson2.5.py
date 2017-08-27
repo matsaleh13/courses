@@ -32,8 +32,6 @@ import os.path
 import utils
 from vgg16 import Vgg16
 
-import bcolz
-
 import numpy as np
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.metrics import confusion_matrix

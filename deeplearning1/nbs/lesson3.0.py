@@ -25,6 +25,10 @@ Lesson 3 Assignment Plan:
 5.	Fit the final model:
     a. Incrementally, saving the weights along the way.
 
+lesson3.0.py:
+- Based on lesson2.5.py
+- now with functions
+
  '''
 
 import os
@@ -33,8 +37,6 @@ import click
 
 import utils
 from vgg16 import Vgg16
-
-import bcolz
 
 import numpy as np
 from sklearn.preprocessing import OneHotEncoder
